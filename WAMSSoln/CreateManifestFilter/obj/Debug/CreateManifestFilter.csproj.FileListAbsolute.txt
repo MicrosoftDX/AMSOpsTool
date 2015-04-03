@@ -1,0 +1,8 @@
+C:\Workspace\CSharp\WAMSSoln\CreateManifestFilter\bin\Debug\CreateManifestFilter.dll
+C:\Workspace\CSharp\WAMSSoln\CreateManifestFilter\bin\Debug\CreateManifestFilter.pdb
+C:\Workspace\CSharp\WAMSSoln\CreateManifestFilter\obj\Debug\CreateManifestFilter.dll
+C:\Workspace\CSharp\WAMSSoln\CreateManifestFilter\obj\Debug\CreateManifestFilter.pdb
+C:\Users\willzhan\Documents\GitHub\AMSOpsTool\WAMSSoln\CreateManifestFilter\bin\Debug\CreateManifestFilter.dll
+C:\Users\willzhan\Documents\GitHub\AMSOpsTool\WAMSSoln\CreateManifestFilter\bin\Debug\CreateManifestFilter.pdb
+C:\Users\willzhan\Documents\GitHub\AMSOpsTool\WAMSSoln\CreateManifestFilter\obj\Debug\CreateManifestFilter.dll
+C:\Users\willzhan\Documents\GitHub\AMSOpsTool\WAMSSoln\CreateManifestFilter\obj\Debug\CreateManifestFilter.pdb

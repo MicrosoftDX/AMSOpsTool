@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestApiLib", "RestApiLib\RestApiLib.csproj", "{13D56134-5D56-4629-95A5-10ED16B17F98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrototypeLive", "PrototypeLive\PrototypeLive.csproj", "{6420A290-8BF7-4B85-AD86-88D0E320642F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrototypeConsole", "PrototypeConsole\PrototypeConsole.csproj", "{B76E9A4C-90E4-4B02-865A-AFCF4C4D4EBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateManifestFilter", "CreateManifestFilter\CreateManifestFilter.csproj", "{E4606ACB-5EB8-4952-97E0-359F0093C78E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13D56134-5D56-4629-95A5-10ED16B17F98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13D56134-5D56-4629-95A5-10ED16B17F98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13D56134-5D56-4629-95A5-10ED16B17F98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13D56134-5D56-4629-95A5-10ED16B17F98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6420A290-8BF7-4B85-AD86-88D0E320642F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6420A290-8BF7-4B85-AD86-88D0E320642F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6420A290-8BF7-4B85-AD86-88D0E320642F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6420A290-8BF7-4B85-AD86-88D0E320642F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B76E9A4C-90E4-4B02-865A-AFCF4C4D4EBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B76E9A4C-90E4-4B02-865A-AFCF4C4D4EBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B76E9A4C-90E4-4B02-865A-AFCF4C4D4EBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B76E9A4C-90E4-4B02-865A-AFCF4C4D4EBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4606ACB-5EB8-4952-97E0-359F0093C78E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4606ACB-5EB8-4952-97E0-359F0093C78E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4606ACB-5EB8-4952-97E0-359F0093C78E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4606ACB-5EB8-4952-97E0-359F0093C78E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\TransientFaultHandling.Core.5.1.1209.1\lib\NET4
+	EndGlobalSection
+EndGlobal

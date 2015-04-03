@@ -1,0 +1,74 @@
+{
+  "allowActAsForAllClients": null,
+  "appId": "d09d8f70-5e57-4ce7-b63a-e1ed9890fe11",
+  "appMetadata": {
+    "version": 0,
+    "data": []
+  },
+  "appRoles": [],
+  "availableToOtherTenants": false,
+  "displayName": "SilverlightApplication.Web",
+  "errorUrl": null,
+  "groupMembershipClaims": null,
+  "homepage": "http://localhost/SilverlightApplication.Web",
+  "identifierUris": [
+    "http://localhost/SilverlightApplication.Web"
+  ],
+  "keyCredentials": [],
+  "knownClientApplications": [],
+  "logoutUrl": null,
+  "oauth2AllowImplicitFlow": false,
+  "oauth2AllowUrlPathMatching": false,
+  "oauth2Permissions": [
+    {
+      "adminConsentDescription": "Allow the application to access SilverlightApplication.Web on behalf of the signed-in user.",
+      "adminConsentDisplayName": "Access SilverlightApplication.Web",
+      "id": "232055c4-a0ac-437c-a97d-eab138aeadd1",
+      "isEnabled": true,
+      "origin": "Application",
+      "type": "User",
+      "userConsentDescription": "Allow the application to access SilverlightApplication.Web on your behalf.",
+      "userConsentDisplayName": "Access SilverlightApplication.Web",
+      "value": "user_impersonation"
+    }
+  ],
+  "oauth2RequirePostResponse": false,
+  "passwordCredentials": [
+    {
+      "customKeyIdentifier": null,
+      "endDate": "2017-01-09T19:31:17.94216Z",
+      "keyId": "e13a87eb-0654-4d03-ac86-6071dcd40afd",
+      "startDate": "2015-01-09T19:31:17.94216Z",
+      "value": null
+    }
+  ],
+  "publicClient": null,
+  "replyUrls": [
+    "http://localhost/SilverlightApplication.Web"
+  ],
+  "requiredResourceAccess": [
+    {
+      "resourceAppId": "00000002-0000-0000-c000-000000000000",
+      "resourceAccess": [
+        {
+          "id": "311a71cc-e848-46a1-bdf8-97ff7156d8e6",
+          "type": "Scope"
+        }
+      ]
+    }
+  ],
+  "samlMetadataUrl": null,
+  "defaultPolicy": [],
+  "extensionProperties": [],
+  "objectType": "Application",
+  "objectId": "1ecec173-e8f6-4911-bec2-cdd85f46b3b7",
+  "deletionTimestamp": null,
+  "createdOnBehalfOf": null,
+  "createdObjects": [],
+  "manager": null,
+  "directReports": [],
+  "members": [],
+  "memberOf": [],
+  "owners": [],
+  "ownedObjects": []
+}

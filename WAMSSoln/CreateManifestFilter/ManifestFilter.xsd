@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema elementFormDefault="qualified"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="filters">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" name="filter">
+          <xs:complexType mixed="true">
+            <xs:sequence minOccurs="0">
+              <xs:element name="absTimeInHNS">
+                <xs:complexType>
+                  <xs:attribute name="ge" type="xs:unsignedLong" use="optional" />
+                  <xs:attribute name="le" type="xs:unsignedLong" use="optional" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="name" type="xs:string" use="required" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="majorVersion" type="xs:unsignedInt" use="required" fixed="0" />
+      <xs:attribute name="minorVersion" type="xs:unsignedInt" use="required" fixed="1"/>
+    </xs:complexType>
+    <xs:unique name="uniqueFilterName">
+      <xs:selector xpath="./filter"/>
+      <xs:field xpath="@name"/>
+    </xs:unique>
+    
+  </xs:element>
+</xs:schema>

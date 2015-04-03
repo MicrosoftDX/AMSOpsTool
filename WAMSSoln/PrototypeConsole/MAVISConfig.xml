@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration version="2.0">
+  <input>
+    <metadata key="title" value="MAVIS Test" />
+    <metadata key="description" value="Test MAVIS conf" />
+  </input>
+  <settings>
+  </settings>
+</configuration>
+

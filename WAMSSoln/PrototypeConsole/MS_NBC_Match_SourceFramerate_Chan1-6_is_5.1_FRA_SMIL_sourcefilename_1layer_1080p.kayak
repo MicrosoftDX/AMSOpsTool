@@ -1,0 +1,2271 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kayakDocument version="1.1" xml:space="preserve">
+    <components>
+        <component>
+            <propertyDefinition hidden="true" name="_graphDisplayContents" dynamic="true"/>
+            <propertyDefinition hidden="true" name="_graphMinDisplaySize" dynamic="true"/>
+            <property name="_graphDisplayContents" isNull="true"/>
+            <property name="_graphMinDisplaySize" isNull="true"/>
+            <property name="acquireChildLicenses" isNull="true"/>
+            <property name="assetPieceNoMetadata" isNull="true"/>
+            <property name="clipListXml">&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;
+&lt;clipList&gt;
+    &lt;clip&gt;
+        &lt;videoSource&gt;
+            &lt;mediaFile&gt;
+                &lt;file&gt;S:\Darren.Gallipeau\NBC\EVS\EVS_french15min_29-MAY-2013_16e9ea56dcf9442691eed26b85141052.mxf&lt;/file&gt;
+            &lt;/mediaFile&gt;
+        &lt;/videoSource&gt;
+        &lt;audioSource&gt;
+            &lt;mediaFile&gt;
+                &lt;file&gt;S:\Darren.Gallipeau\NBC\EVS\EVS_french15min_29-MAY-2013_16e9ea56dcf9442691eed26b85141052.mxf&lt;/file&gt;
+            &lt;/mediaFile&gt;
+        &lt;/audioSource&gt;
+    &lt;/clip&gt;
+    &lt;primaryClipIndex&gt;0&lt;/primaryClipIndex&gt;
+&lt;/clipList&gt;
+</property>
+            <property name="connectionTimeout">5</property>
+            <property name="defaultAssetName">DEFAULT</property>
+            <property name="defaultInputPin" isNull="true"/>
+            <property name="defaultOutputPin" isNull="true"/>
+            <property name="ignoreChildComponentErrors" isNull="true"/>
+            <property name="ignoreParentGraphState" isNull="true"/>
+            <property name="inactiveTimeout">60</property>
+            <property name="logsMaxEntries" isNull="true"/>
+            <property name="monitorProgress">true</property>
+            <property name="outputWriteDirectory">D:\Output</property>
+            <property name="primarySourceFile">S:\Darren.Gallipeau\NBC\EVS\EVS_french15min_29-MAY-2013_16e9ea56dcf9442691eed26b85141052.mxf</property>
+            <property name="submitTimeout">10</property>
+            <property name="tmGroup" isNull="true"/>
+            <property name="tmHost" isNull="true"/>
+            <property name="tmMoveToPath" isNull="true"/>
+            <property name="tmPassword" isNull="true"/>
+            <property name="tmPriority" isNull="true"/>
+            <property name="tmServerPort" isNull="true"/>
+            <property name="tmUsername" isNull="true"/>
+            <property name="tmWriteToPath" isNull="true"/>
+            <property name="transcodeRequestXml" isNull="true"/>
+            <componentName>Transcode Blueprint</componentName>
+            <componentDefinitionName>Transcode Task Graph</componentDefinitionName>
+            <componentDefinitionGuid>cc2f8f8a-85a3-4522-85a5-b0b26b12f4cd</componentDefinitionGuid>
+            <componentOwningPluginName>Media Manager</componentOwningPluginName>
+            <componentOwningPluginId>ca.digitalrapids.MediaManager</componentOwningPluginId>
+            <childComponents>
+                <component>
+                    <propertyDefinition hidden="true" name="_graphDisplayLocation" dynamic="true"/>
+                    <propertyDefinition hidden="true" name="_graphDisplayContents" dynamic="true"/>
+                    <propertyDefinition hidden="true" name="_graphMinDisplaySize" dynamic="true"/>
+                    <property name="Decode_captions_AFD">true</property>
+                    <property name="EndTime" isNull="true"/>
+                    <property name="StartTime" isNull="true"/>
+                    <property name="_graphDisplayContents">false</property>
+                    <property name="_graphDisplayLocation">30.0,98.0</property>
+                    <property name="_graphMinDisplaySize" isNull="true"/>
+                    <property name="acquireChildLicenses" isNull="true"/>
+                    <property name="always_use_directshow">false</property>
+                    <property name="blackThreshold">0.10</property>
+                    <property name="black_border_detection">false</property>
+                    <property name="defaultInputPin" isNull="true"/>
+                    <property name="defaultOutputPin" isNull="true"/>
+                    <property name="enable_directshow">false</property>
+                    <property name="filename" marshallerKey="Serializable">rO0ABXNyADVjYS5kaWdpdGFscmFwaWRzLmtheWFrLmRhdGEuaW1wbC5EZWZhdWx0RGF0YUNvbnRh
+aW5lcgAAAAAAAAABAgAFWgAHbXV0YWJsZVoAEW11dGFibGVEYXRhT2JqZWN0SgALc2l6ZUluQnl0
+ZXNMAApkYXRhT2JqZWN0dAASTGphdmEvbGFuZy9PYmplY3Q7TAAIZGF0YVR5cGV0ACZMY2EvZGln
+aXRhbHJhcGlkcy9rYXlhay9kYXRhL0RhdGFUeXBlO3hwAQEAAAAAAAAAAXQAXFM6XERhcnJlbi5H
+YWxsaXBlYXVcTkJDXEVWU1xFVlNfZnJlbmNoMTVtaW5fMjktTUFZLTIwMTNfMTZlOWVhNTZkY2Y5
+NDQyNjkxZWVkMjZiODUxNDEwNTIubXhmc3IALWNhLmRpZ2l0YWxyYXBpZHMua2F5YWsuZGF0YXR5
+cGVzLkJhc2VEYXRhVHlwZQAAAAAAAAABAgADWgAHbXV0YWJsZUwAEmRhdGFUeXBlRGVmaW5pdGlv
+bnQARkxjYS9kaWdpdGFscmFwaWRzL2theWFrL2RhdGF0eXBlcy9kZWZpbml0aW9uL21vZGVsL0Rh
+dGFUeXBlRGVmaW5pdGlvbjtMAANtYXB0AA9MamF2YS91dGlsL01hcDt4cAFwc3IAEWphdmEudXRp
+bC5IYXNoTWFwBQfawcMWYNEDAAJGAApsb2FkRmFjdG9ySQAJdGhyZXNob2xkeHA/AAAAAAAAIHcI
+AAAAQAAAAAB4</property>
+                    <property name="ignoreChildComponentErrors" isNull="true"/>
+                    <property name="ignoreParentGraphState" isNull="true"/>
+                    <property name="inspection_max_megabytes" isNull="true"/>
+                    <property name="inspection_max_seconds" isNull="true"/>
+                    <property name="inspection_mode" isNull="true"/>
+                    <property name="logsMaxEntries" isNull="true"/>
+                    <property name="noiseThreshold">0.10</property>
+                    <property name="probeDuration">60.0</property>
+                    <property name="probeRate">0.10</property>
+                    <property name="probeTimeInterval">1.0</property>
+                    <componentName>Media File Input</componentName>
+                    <componentDefinitionName>Media File Input</componentDefinitionName>
+                    <componentDefinitionGuid>7cec6ecd-a477-4834-bc6f-97e34aa58bb5</componentDefinitionGuid>
+                    <componentOwningPluginName>MediaInspection</componentOwningPluginName>
+                    <componentOwningPluginId>ca.digitalrapids.MediaInspection</componentOwningPluginId>
+                    <childComponents/>
+                    <pin name="filename" type="PROPERTY">
+                        <property name="_pinProperty">filename</property>
+                    </pin>
+                    <pin name="UncompressedVideo" type="OUTPUT_IO">
+                        <pinDefinition name="UncompressedVideo" displayName="Uncompressed Video" type="OUTPUT_IO" dynamic="true"/>
+                    </pin>
+                    <pin name="Timecode" type="OUTPUT_IO">
+                        <pinDefinition name="Timecode" displayName="Timecode (GOP Header)" type="OUTPUT_IO" dynamic="true"/>
+                    </pin>
+                    <pin name="Data608Service" type="OUTPUT_IO">
+                        <pinDefinition name="Data608Service" displayName="EIA-608 Captions (SCTE-20 User Data)" type="OUTPUT_IO" dynamic="true"/>
+                    </pin>
+                    <pin name="Data608Service 2" type="OUTPUT_IO">
+                        <pinDefinition name="Data608Service 2" displayName="EIA-608 Captions (708 compatibility bytes)" type="OUTPUT_IO" dynamic="true"/>
+                    </pin>
+                    <pin name="Data708Service" type="OUTPUT_IO">
+                        <pinDefinition name="Data708Service" displayName="EIA-708 Captions (ATSC User Data)" type="OUTPUT_IO" dynamic="true"/>
+                    </pin>
+                    <pin name="Timecode 2" type="OUTPUT_IO">
+                        <pinDefinition name="Timecode 2" displayName="Timecode (328M)" type="OUTPUT_IO" dynamic="true"/>
+                    </pin>
+                    <pin name="ActiveFormatDescription" type="OUTPUT_IO">
+                        <pinDefinition name="ActiveFormatDescription" displayName="Active Format Description" type="OUTPUT_IO" dynamic="true"/>
+                    </pin>
+                    <pin name="MPEGUserData" type="OUTPUT_IO">
+                        <pinDefinition name="MPEGUserData" displayName="User Data" type="OUTPUT_IO" dynamic="true"/>
+                    </pin>
+                    <pin name="CompressedVideo" type="OUTPUT_IO">
+                        <pinDefinition name="CompressedVideo" displayName="Compressed Video (MPEG-1 or MPEG-2)" type="OUTPUT_IO" dynamic="true"/>
+                    </pin>
+                    <pin name="CompressedAudio" type="OUTPUT_IO">
+                        <pinDefinition name="CompressedAudio" displayName="Uncompressed Audio (AES)" type="OUTPUT_IO" dynamic="true"/>
+                    </pin>
+                    <pin name="UncompressedAudio" type="OUTPUT_IO">
+                        <pinDefinition name="UncompressedAudio" displayName="Uncompressed Audio" type="OUTPUT_IO" dynamic="true"/>
+                    </pin>
+                    <pin name="CompressedAudio 2" type="OUTPUT_IO">
+                        <pinDefinition name="CompressedAudio 2" displayName="Uncompressed Audio 2 (AES)" type="OUTPUT_IO" dynamic="true"/>
+                    </pin>
+                    <pin name="UncompressedAudio 2" type="OUTPUT_IO">
+                        <pinDefinition name="UncompressedAudio 2" displayName="Uncompressed Audio 2" type="OUTPUT_IO" dynamic="true"/>
+                    </pin>
+                    <pin name="CompressedAudio 3" type="OUTPUT_IO">
+                        <pinDefinition name="CompressedAudio 3" displayName="Uncompressed Audio 3 (AES)" type="OUTPUT_IO" dynamic="true"/>
+                    </pin>
+                    <pin name="UncompressedAudio 3" type="OUTPUT_IO">
+                        <pinDefinition name="UncompressedAudio 3" displayName="Uncompressed Audio 3" type="OUTPUT_IO" dynamic="true"/>
+                    </pin>
+                    <pin name="CompressedAudio 4" type="OUTPUT_IO">
+                        <pinDefinition name="CompressedAudio 4" displayName="Uncompressed Audio 4 (AES)" type="OUTPUT_IO" dynamic="true"/>
+                    </pin>
+                    <pin name="UncompressedAudio 4" type="OUTPUT_IO">
+                        <pinDefinition name="UncompressedAudio 4" displayName="Uncompressed Audio 4" type="OUTPUT_IO" dynamic="true"/>
+                    </pin>
+                    <pin name="CompressedAudio 5" type="OUTPUT_IO">
+                        <pinDefinition name="CompressedAudio 5" displayName="Uncompressed Audio 5 (AES)" type="OUTPUT_IO" dynamic="true"/>
+                    </pin>
+                    <pin name="UncompressedAudio 5" type="OUTPUT_IO">
+                        <pinDefinition name="UncompressedAudio 5" displayName="Uncompressed Audio 5" type="OUTPUT_IO" dynamic="true"/>
+                    </pin>
+                    <pin name="CompressedAudio 6" type="OUTPUT_IO">
+                        <pinDefinition name="CompressedAudio 6" displayName="Uncompressed Audio 6 (AES)" type="OUTPUT_IO" dynamic="true"/>
+                    </pin>
+                    <pin name="UncompressedAudio 6" type="OUTPUT_IO">
+                        <pinDefinition name="UncompressedAudio 6" displayName="Uncompressed Audio 6" type="OUTPUT_IO" dynamic="true"/>
+                    </pin>
+                    <pin name="CompressedAudio 7" type="OUTPUT_IO">
+                        <pinDefinition name="CompressedAudio 7" displayName="Uncompressed Audio 7 (AES)" type="OUTPUT_IO" dynamic="true"/>
+                    </pin>
+                    <pin name="UncompressedAudio 7" type="OUTPUT_IO">
+                        <pinDefinition name="UncompressedAudio 7" displayName="Uncompressed Audio 7" type="OUTPUT_IO" dynamic="true"/>
+                    </pin>
+                    <pin name="CompressedAudio 8" type="OUTPUT_IO">
+                        <pinDefinition name="CompressedAudio 8" displayName="Uncompressed Audio 8 (AES)" type="OUTPUT_IO" dynamic="true"/>
+                    </pin>
+                    <pin name="UncompressedAudio 8" type="OUTPUT_IO">
+                        <pinDefinition name="UncompressedAudio 8" displayName="Uncompressed Audio 8" type="OUTPUT_IO" dynamic="true"/>
+                    </pin>
+                    <pin name="Timecode 3" type="OUTPUT_IO">
+                        <pinDefinition name="Timecode 3" displayName="Timecode (MXF Material Package)" type="OUTPUT_IO" dynamic="true"/>
+                    </pin>
+                    <pin name="Timecode 4" type="OUTPUT_IO">
+                        <pinDefinition name="Timecode 4" displayName="Timecode (MXF System Track)" type="OUTPUT_IO" dynamic="true"/>
+                    </pin>
+                </component>
+                <component>
+                    <propertyDefinition hidden="true" name="_graphDisplayLocation" dynamic="true"/>
+                    <propertyDefinition hidden="true" name="_graphDisplayContents" dynamic="true"/>
+                    <propertyDefinition hidden="true" name="_graphMinDisplaySize" dynamic="true"/>
+                    <property name="_graphDisplayContents">false</property>
+                    <property name="_graphDisplayLocation">416.80718994140625,50.98046875</property>
+                    <property name="_graphMinDisplaySize" isNull="true"/>
+                    <property name="accuracy_bits_per_sample" isNull="true"/>
+                    <property name="acquireChildLicenses" isNull="true"/>
+                    <property name="average_bit_rate" isNull="true"/>
+                    <property name="bits_per_sample" isNull="true"/>
+                    <property name="color_space_standard">rec709</property>
+                    <property name="custom_aspect_ratio">16/9</property>
+                    <property name="defaultInputPin">in</property>
+                    <property name="defaultOutputPin">out</property>
+                    <property name="display_aspect_ratio">16/9</property>
+                    <property name="display_aspect_ratio_shadow">16/9</property>
+                    <property name="field_dominance">top_field</property>
+                    <property name="frame_layout">interlaced</property>
+                    <property name="frame_rate" isNull="true"/>
+                    <property name="frame_rate_shadow" isNull="true"/>
+                    <property name="ignoreChildComponentErrors" isNull="true"/>
+                    <property name="ignoreParentGraphState" isNull="true"/>
+                    <property name="language_code" isNull="true"/>
+                    <property name="language_code_shadow" isNull="true"/>
+                    <property name="logsMaxEntries" isNull="true"/>
+                    <property name="maximum_bit_rate" isNull="true"/>
+                    <property name="out_endian" isNull="true"/>
+                    <property name="override_input">FALSE</property>
+                    <property name="pulldown_mode" isNull="true"/>
+                    <property name="rate_control" isNull="true"/>
+                    <property name="sample_signed" isNull="true"/>
+                    <property name="sd_no_overscan" isNull="true"/>
+                    <property name="sd_no_overscan_shadow" isNull="true"/>
+                    <property name="segmented_frame" isNull="true"/>
+                    <property name="storage_bits_per_sample" isNull="true"/>
+                    <componentName>Video Data Type Updater</componentName>
+                    <componentDefinitionName>Video Data Type Updater</componentDefinitionName>
+                    <componentDefinitionGuid>D7576695-6BCB-410F-BB86-734E5F526924</componentDefinitionGuid>
+                    <componentOwningPluginName>VideoFormatUtilities</componentOwningPluginName>
+                    <componentOwningPluginId>ca.digitalrapids.VideoFormatUtilities</componentOwningPluginId>
+                    <childComponents/>
+                    <pin name="in" type="INPUT_IO"/>
+                    <pin name="out" type="OUTPUT_IO"/>
+                </component>
+                <component>
+                    <propertyDefinition hidden="true" name="_graphDisplayLocation" dynamic="true"/>
+                    <propertyDefinition hidden="true" name="_graphDisplayContents" dynamic="true"/>
+                    <propertyDefinition hidden="true" name="_graphMinDisplaySize" dynamic="true"/>
+                    <propertyDefinition displayName="Bitrate" name="datarate" group="Published" dynamic="true">
+                        <propertyRedirect propertyPath="AAC Encoder (Dolby)/AAC Encoder/datarate"/>
+                    </propertyDefinition>
+                    <propertyDefinition displayName="Channel Preset" name="channel_position_preset" group="Published" dynamic="true">
+                        <propertyRedirect propertyPath="AAC Encoder (Dolby)/Audio Format Converter/Channel Mapper/channel_position_preset"/>
+                    </propertyDefinition>
+                    <propertyDefinition displayName="Bit Depth" name="output_bits_per_sample" group="Published" dynamic="true">
+                        <propertyRedirect propertyPath="AAC Encoder (Dolby)/Audio Format Converter/output_bits_per_sample"/>
+                    </propertyDefinition>
+                    <propertyDefinition displayName="Sample Rate" name="output_sample_rate" group="Published" dynamic="true">
+                        <propertyRedirect propertyPath="AAC Encoder (Dolby)/Audio Format Converter/output_sample_rate"/>
+                    </propertyDefinition>
+                    <propertyDefinition displayName="Bitrate 2" name="datarate 2" group="Published" dynamic="true">
+                        <propertyRedirect propertyPath="AAC Encoder (Dolby)/AAC Encoder/datarate"/>
+                    </propertyDefinition>
+                    <propertyDefinition displayName="Encode Mode" name="encodemode" group="Published" dynamic="true">
+                        <propertyRedirect propertyPath="AAC Encoder (Dolby)/AAC Encoder/encodemode"/>
+                    </propertyDefinition>
+                    <propertyDefinition displayName="Language Code" name="language_code" group="Published" dynamic="true">
+                        <propertyRedirect propertyPath="Audio Data Type Updater/Language Code Updater/language_code"/>
+                    </propertyDefinition>
+                    <property name="_graphDisplayContents">false</property>
+                    <property name="_graphDisplayLocation">755.7452087402344,382.98046875</property>
+                    <property name="_graphMinDisplaySize" isNull="true"/>
+                    <property name="acquireChildLicenses" isNull="true"/>
+                    <property name="channel_position_preset">L_R</property>
+                    <property name="datarate">48000</property>
+                    <property name="datarate 2">48000</property>
+                    <property name="defaultInputPin" isNull="true"/>
+                    <property name="defaultOutputPin" isNull="true"/>
+                    <property name="encodemode">DP_HE_AAC</property>
+                    <property name="ignoreChildComponentErrors" isNull="true"/>
+                    <property name="ignoreParentGraphState" isNull="true"/>
+                    <property name="language_code">fr</property>
+                    <property name="logsMaxEntries" isNull="true"/>
+                    <property name="output_bits_per_sample">16</property>
+                    <property name="output_sample_rate">44100</property>
+                    <componentName>Audio_prepro + AAC Encoder</componentName>
+                    <componentDefinitionName>Kayak Graph</componentDefinitionName>
+                    <componentDefinitionGuid>abc785f2-427e-4522-ba00-f3cb6acd1220</componentDefinitionGuid>
+                    <componentOwningPluginName>KayakCore</componentOwningPluginName>
+                    <componentOwningPluginId>ca.digitalrapids.KayakCore</componentOwningPluginId>
+                    <childComponents>
+                        <component>
+                            <propertyDefinition hidden="true" name="_graphDisplayLocation" dynamic="true"/>
+                            <propertyDefinition hidden="true" name="_graphDisplayContents" dynamic="true"/>
+                            <property name="Duration">Depend on the shortest source</property>
+                            <property name="_graphDisplayContents" isNull="true"/>
+                            <property name="_graphDisplayLocation">0.0,0.01953125</property>
+                            <property name="defaultInputPin" isNull="true"/>
+                            <property name="defaultOutputPin">out</property>
+                            <property name="framesPerPacket">1024</property>
+                            <property name="logsMaxEntries" isNull="true"/>
+                            <componentName>Audio Stream Interleaver</componentName>
+                            <componentDefinitionName>Audio Stream Interleaver</componentDefinitionName>
+                            <componentDefinitionGuid>D166D48B-FA26-44ca-8F2D-62B20D892659</componentDefinitionGuid>
+                            <componentOwningPluginName>AudioFormatUtilities</componentOwningPluginName>
+                            <componentOwningPluginId>ca.digitalrapids.AudioFormatUtilities</componentOwningPluginId>
+                            <childComponents/>
+                            <pin name="out" type="OUTPUT_PUSH"/>
+                            <pin name="done" type="EVENT"/>
+                            <pin name="in 1" type="INPUT_PUSH">
+                                <pinDefinition name="in 1" displayName="Uncompressed Audio 1" type="INPUT_PUSH" dynamic="true"/>
+                            </pin>
+                            <pin name="in 2" type="INPUT_PUSH">
+                                <pinDefinition name="in 2" displayName="Uncompressed Audio 2" type="INPUT_PUSH" dynamic="true"/>
+                            </pin>
+                            <pin name="in 3" type="INPUT_PUSH">
+                                <pinDefinition name="in 3" displayName="Uncompressed Audio 3" type="INPUT_PUSH" dynamic="true"/>
+                            </pin>
+                            <pin name="in 4" type="INPUT_PUSH">
+                                <pinDefinition name="in 4" displayName="Uncompressed Audio 4" type="INPUT_PUSH" dynamic="true"/>
+                            </pin>
+                            <pin name="in 5" type="INPUT_PUSH">
+                                <pinDefinition name="in 5" displayName="Uncompressed Audio 5" type="INPUT_PUSH" dynamic="true"/>
+                            </pin>
+                            <pin name="in 6" type="INPUT_PUSH">
+                                <pinDefinition name="in 6" displayName="Uncompressed Audio 6" type="INPUT_PUSH" dynamic="true"/>
+                            </pin>
+                            <pin name="in 7" type="INPUT_PUSH">
+                                <pinDefinition name="in 7" displayName="Uncompressed Audio 7" type="INPUT_PUSH" dynamic="true"/>
+                            </pin>
+                        </component>
+                        <component>
+                            <propertyDefinition hidden="true" name="_graphDisplayLocation" dynamic="true"/>
+                            <propertyDefinition hidden="true" name="_graphDisplayContents" dynamic="true"/>
+                            <property name="_graphDisplayContents" isNull="true"/>
+                            <property name="_graphDisplayLocation">599.794921875,0.01953125</property>
+                            <property name="center_gain_db">-3.0</property>
+                            <property name="defaultInputPin">in</property>
+                            <property name="defaultOutputPin">out</property>
+                            <property name="lfe_gain_db">-12.0</property>
+                            <property name="logsMaxEntries" isNull="true"/>
+                            <property name="surround_gain_db">-3.0</property>
+                            <componentName>Down Mix 5.1 to Stereo</componentName>
+                            <componentDefinitionName>Down Mix 5.1 to Stereo</componentDefinitionName>
+                            <componentDefinitionGuid>9B591F12-F688-4776-8F56-EC22E1DC367E</componentDefinitionGuid>
+                            <componentOwningPluginName>AudioFormatUtilities</componentOwningPluginName>
+                            <componentOwningPluginId>ca.digitalrapids.AudioFormatUtilities</componentOwningPluginId>
+                            <childComponents/>
+                            <pin name="in" type="INPUT_PUSH"/>
+                            <pin name="out" type="OUTPUT_PUSH"/>
+                        </component>
+                        <component>
+                            <propertyDefinition displayName="RFC5646 Language Code" name="language_code" group="Language" dynamic="true">
+                                <valueType type="STRING">
+                                    <valueRestriction strictEnum="false">
+                                        <enumerationFromDataType dataTypeDefinition="Language" type="language_code"/>
+                                        <enumerationValue displayName="Pass-through" description="Selecting this value will cause the component to simply pass all input through unchanged"></enumerationValue>
+                                        <enumerationValue val="und" displayName="Undefined"></enumerationValue>
+                                        <enumerationValue val="ab" displayName="Abkhazian, Abkhaz"></enumerationValue>
+                                        <enumerationValue val="aa" displayName="Afar"></enumerationValue>
+                                        <enumerationValue val="af" displayName="Afrikaans"></enumerationValue>
+                                        <enumerationValue val="ak" displayName="Akan"></enumerationValue>
+                                        <enumerationValue val="sq" displayName="Albanian"></enumerationValue>
+                                        <enumerationValue val="am" displayName="Amharic"></enumerationValue>
+                                        <enumerationValue val="ar" displayName="Arabic"></enumerationValue>
+                                        <enumerationValue val="an" displayName="Aragonese"></enumerationValue>
+                                        <enumerationValue val="hy" displayName="Armenian"></enumerationValue>
+                                        <enumerationValue val="as" displayName="Assamese"></enumerationValue>
+                                        <enumerationValue val="av" displayName="Avaric"></enumerationValue>
+                                        <enumerationValue val="ae" displayName="Avestan"></enumerationValue>
+                                        <enumerationValue val="ay" displayName="Aymara"></enumerationValue>
+                                        <enumerationValue val="az" displayName="Azerbaijani"></enumerationValue>
+                                        <enumerationValue val="bm" displayName="Bambara"></enumerationValue>
+                                        <enumerationValue val="ba" displayName="Bashkir"></enumerationValue>
+                                        <enumerationValue val="eu" displayName="Basque"></enumerationValue>
+                                        <enumerationValue val="be" displayName="Belarusian"></enumerationValue>
+                                        <enumerationValue val="bn" displayName="Bengali"></enumerationValue>
+                                        <enumerationValue val="bh" displayName="Bihari Languages"></enumerationValue>
+                                        <enumerationValue val="bi" displayName="Bislama"></enumerationValue>
+                                        <enumerationValue val="bs" displayName="Bosnian"></enumerationValue>
+                                        <enumerationValue val="br" displayName="Breton"></enumerationValue>
+                                        <enumerationValue val="bg" displayName="Bulgarian"></enumerationValue>
+                                        <enumerationValue val="my" displayName="Burmese"></enumerationValue>
+                                        <enumerationValue val="ca" displayName="Catalan, Valencian"></enumerationValue>
+                                        <enumerationValue val="ch" displayName="Chamorro"></enumerationValue>
+                                        <enumerationValue val="ce" displayName="Chechen"></enumerationValue>
+                                        <enumerationValue val="ny" displayName="Chichewa, Chewa, Nyanja"></enumerationValue>
+                                        <enumerationValue val="zh" displayName="Chinese"></enumerationValue>
+                                        <enumerationValue val="cu" displayName="Church Slavic, Old Bulgarian"></enumerationValue>
+                                        <enumerationValue val="cv" displayName="Chuvash"></enumerationValue>
+                                        <enumerationValue val="kw" displayName="Cornish"></enumerationValue>
+                                        <enumerationValue val="co" displayName="Corsican"></enumerationValue>
+                                        <enumerationValue val="cr" displayName="Cree"></enumerationValue>
+                                        <enumerationValue val="hr" displayName="Croatian"></enumerationValue>
+                                        <enumerationValue val="cs" displayName="Czech"></enumerationValue>
+                                        <enumerationValue val="da" displayName="Danish"></enumerationValue>
+                                        <enumerationValue val="dv" displayName="Divehi, Dhivehi, Maldivian"></enumerationValue>
+                                        <enumerationValue val="nl" displayName="Dutch, Flemish"></enumerationValue>
+                                        <enumerationValue val="dz" displayName="Dzongkha"></enumerationValue>
+                                        <enumerationValue val="en" displayName="English"></enumerationValue>
+                                        <enumerationValue val="eo" displayName="Esperanto"></enumerationValue>
+                                        <enumerationValue val="et" displayName="Estonian"></enumerationValue>
+                                        <enumerationValue val="ee" displayName="Ewe"></enumerationValue>
+                                        <enumerationValue val="fo" displayName="Faroese"></enumerationValue>
+                                        <enumerationValue val="fj" displayName="Fijian"></enumerationValue>
+                                        <enumerationValue val="fi" displayName="Finnish"></enumerationValue>
+                                        <enumerationValue val="fr" displayName="French"></enumerationValue>
+                                        <enumerationValue val="ff" displayName="Fulah"></enumerationValue>
+                                        <enumerationValue val="gl" displayName="Galician"></enumerationValue>
+                                        <enumerationValue val="lg" displayName="Ganda"></enumerationValue>
+                                        <enumerationValue val="ka" displayName="Georgian"></enumerationValue>
+                                        <enumerationValue val="de" displayName="German"></enumerationValue>
+                                        <enumerationValue val="gn" displayName="Guarani"></enumerationValue>
+                                        <enumerationValue val="gu" displayName="Gujarati"></enumerationValue>
+                                        <enumerationValue val="ht" displayName="Haitian, Creole"></enumerationValue>
+                                        <enumerationValue val="ha" displayName="Hausa"></enumerationValue>
+                                        <enumerationValue val="he" displayName="Hebrew"></enumerationValue>
+                                        <enumerationValue val="hz" displayName="Herero"></enumerationValue>
+                                        <enumerationValue val="hi" displayName="Hindi"></enumerationValue>
+                                        <enumerationValue val="ho" displayName="Hiri Motu"></enumerationValue>
+                                        <enumerationValue val="hu" displayName="Hungarian"></enumerationValue>
+                                        <enumerationValue val="is" displayName="Icelandic"></enumerationValue>
+                                        <enumerationValue val="io" displayName="Ido"></enumerationValue>
+                                        <enumerationValue val="ig" displayName="Igbo"></enumerationValue>
+                                        <enumerationValue val="id" displayName="Indonesian"></enumerationValue>
+                                        <enumerationValue val="ia" displayName="Interlingua"></enumerationValue>
+                                        <enumerationValue val="ie" displayName="Interlingue, Occidental"></enumerationValue>
+                                        <enumerationValue val="iu" displayName="Inuktitut"></enumerationValue>
+                                        <enumerationValue val="ik" displayName="Inupiaq"></enumerationValue>
+                                        <enumerationValue val="ga" displayName="Irish"></enumerationValue>
+                                        <enumerationValue val="it" displayName="Italian"></enumerationValue>
+                                        <enumerationValue val="ja" displayName="Japanese"></enumerationValue>
+                                        <enumerationValue val="jv" displayName="Javanese"></enumerationValue>
+                                        <enumerationValue val="kl" displayName="Kalaallisut, Greenlandic"></enumerationValue>
+                                        <enumerationValue val="kn" displayName="Kannada"></enumerationValue>
+                                        <enumerationValue val="kr" displayName="Kanuri"></enumerationValue>
+                                        <enumerationValue val="ks" displayName="Kashmiri"></enumerationValue>
+                                        <enumerationValue val="kk" displayName="Kazakh"></enumerationValue>
+                                        <enumerationValue val="km" displayName="Khmer"></enumerationValue>
+                                        <enumerationValue val="ki" displayName="Kikuyu, Gikuyu"></enumerationValue>
+                                        <enumerationValue val="rw" displayName="Kinyarwanda"></enumerationValue>
+                                        <enumerationValue val="ky" displayName="Kirghiz, Kyrgyz"></enumerationValue>
+                                        <enumerationValue val="rn" displayName="Kirundi"></enumerationValue>
+                                        <enumerationValue val="kv" displayName="Komi"></enumerationValue>
+                                        <enumerationValue val="kg" displayName="Kongo"></enumerationValue>
+                                        <enumerationValue val="ko" displayName="Korean"></enumerationValue>
+                                        <enumerationValue val="kj" displayName="Kuanyama, Kwanyama"></enumerationValue>
+                                        <enumerationValue val="ku" displayName="Kurdish"></enumerationValue>
+                                        <enumerationValue val="lo" displayName="Lao"></enumerationValue>
+                                        <enumerationValue val="la" displayName="Latin"></enumerationValue>
+                                        <enumerationValue val="lv" displayName="Latvian"></enumerationValue>
+                                        <enumerationValue val="li" displayName="Limburgan, Limburger, Limburgish"></enumerationValue>
+                                        <enumerationValue val="ln" displayName="Lingala"></enumerationValue>
+                                        <enumerationValue val="lt" displayName="Lithuanian"></enumerationValue>
+                                        <enumerationValue val="lu" displayName="Luba-Katanga"></enumerationValue>
+                                        <enumerationValue val="lb" displayName="Luxembourgish, Letzeburgesch"></enumerationValue>
+                                        <enumerationValue val="mk" displayName="Macedonian"></enumerationValue>
+                                        <enumerationValue val="mg" displayName="Malagasy"></enumerationValue>
+                                        <enumerationValue val="ms" displayName="Malay"></enumerationValue>
+                                        <enumerationValue val="ml" displayName="Malayalam"></enumerationValue>
+                                        <enumerationValue val="mt" displayName="Maltese"></enumerationValue>
+                                        <enumerationValue val="gv" displayName="Manx"></enumerationValue>
+                                        <enumerationValue val="mi" displayName="Maori"></enumerationValue>
+                                        <enumerationValue val="mr" displayName="Marathi"></enumerationValue>
+                                        <enumerationValue val="mh" displayName="Marshallese"></enumerationValue>
+                                        <enumerationValue val="el" displayName="Modern Greek"></enumerationValue>
+                                        <enumerationValue val="mn" displayName="Mongolian"></enumerationValue>
+                                        <enumerationValue val="na" displayName="Nauru"></enumerationValue>
+                                        <enumerationValue val="nv" displayName="Navajo, Navaho"></enumerationValue>
+                                        <enumerationValue val="ng" displayName="Ndonga"></enumerationValue>
+                                        <enumerationValue val="ne" displayName="Nepali"></enumerationValue>
+                                        <enumerationValue val="nd" displayName="North Ndebele"></enumerationValue>
+                                        <enumerationValue val="se" displayName="Northern Sami"></enumerationValue>
+                                        <enumerationValue val="no" displayName="Norwegian"></enumerationValue>
+                                        <enumerationValue val="nb" displayName="Norwegian Bokmål"></enumerationValue>
+                                        <enumerationValue val="nn" displayName="Norwegian Nynorsk"></enumerationValue>
+                                        <enumerationValue val="oc" displayName="Occitan (post 1500)"></enumerationValue>
+                                        <enumerationValue val="oj" displayName="Ojibwa"></enumerationValue>
+                                        <enumerationValue val="or" displayName="Oriya"></enumerationValue>
+                                        <enumerationValue val="om" displayName="Oromo"></enumerationValue>
+                                        <enumerationValue val="os" displayName="Ossetian, Ossetic"></enumerationValue>
+                                        <enumerationValue val="pi" displayName="Pali"></enumerationValue>
+                                        <enumerationValue val="pa" displayName="Panjabi, Punjabi"></enumerationValue>
+                                        <enumerationValue val="fa" displayName="Persian"></enumerationValue>
+                                        <enumerationValue val="pl" displayName="Polish"></enumerationValue>
+                                        <enumerationValue val="pt" displayName="Portuguese"></enumerationValue>
+                                        <enumerationValue val="ps" displayName="Pushto, Pashto"></enumerationValue>
+                                        <enumerationValue val="qu" displayName="Quechua"></enumerationValue>
+                                        <enumerationValue val="ro" displayName="Romanian, Moldavian, Moldovan"></enumerationValue>
+                                        <enumerationValue val="rm" displayName="Romansh"></enumerationValue>
+                                        <enumerationValue val="ru" displayName="Russian"></enumerationValue>
+                                        <enumerationValue val="sm" displayName="Samoan"></enumerationValue>
+                                        <enumerationValue val="sg" displayName="Sango"></enumerationValue>
+                                        <enumerationValue val="sa" displayName="Sanskrit"></enumerationValue>
+                                        <enumerationValue val="sc" displayName="Sardinian"></enumerationValue>
+                                        <enumerationValue val="gd" displayName="Scottish Gaelic"></enumerationValue>
+                                        <enumerationValue val="sr" displayName="Serbian"></enumerationValue>
+                                        <enumerationValue val="sn" displayName="Shona"></enumerationValue>
+                                        <enumerationValue val="ii" displayName="Sichuan Yi, Nuosu"></enumerationValue>
+                                        <enumerationValue val="sd" displayName="Sindhi"></enumerationValue>
+                                        <enumerationValue val="si" displayName="Sinhala, Sinhalese"></enumerationValue>
+                                        <enumerationValue val="sk" displayName="Slovak"></enumerationValue>
+                                        <enumerationValue val="sl" displayName="Slovenian"></enumerationValue>
+                                        <enumerationValue val="so" displayName="Somali"></enumerationValue>
+                                        <enumerationValue val="nr" displayName="South Ndebele"></enumerationValue>
+                                        <enumerationValue val="st" displayName="Southern Sotho"></enumerationValue>
+                                        <enumerationValue val="es" displayName="Spanish, Castilian"></enumerationValue>
+                                        <enumerationValue val="su" displayName="Sundanese"></enumerationValue>
+                                        <enumerationValue val="sw" displayName="Swahili"></enumerationValue>
+                                        <enumerationValue val="ss" displayName="Swati"></enumerationValue>
+                                        <enumerationValue val="sv" displayName="Swedish"></enumerationValue>
+                                        <enumerationValue val="tl" displayName="Tagalog"></enumerationValue>
+                                        <enumerationValue val="ty" displayName="Tahitian"></enumerationValue>
+                                        <enumerationValue val="tg" displayName="Tajik"></enumerationValue>
+                                        <enumerationValue val="ta" displayName="Tamil"></enumerationValue>
+                                        <enumerationValue val="tt" displayName="Tatar"></enumerationValue>
+                                        <enumerationValue val="te" displayName="Telugu"></enumerationValue>
+                                        <enumerationValue val="th" displayName="Thai"></enumerationValue>
+                                        <enumerationValue val="bo" displayName="Tibetan"></enumerationValue>
+                                        <enumerationValue val="ti" displayName="Tigrinya"></enumerationValue>
+                                        <enumerationValue val="to" displayName="Tonga (Tonga Islands)"></enumerationValue>
+                                        <enumerationValue val="ts" displayName="Tsonga"></enumerationValue>
+                                        <enumerationValue val="tn" displayName="Tswana"></enumerationValue>
+                                        <enumerationValue val="tr" displayName="Turkish"></enumerationValue>
+                                        <enumerationValue val="tk" displayName="Turkmen"></enumerationValue>
+                                        <enumerationValue val="tw" displayName="Twi"></enumerationValue>
+                                        <enumerationValue val="ug" displayName="Uighur, Uyghur"></enumerationValue>
+                                        <enumerationValue val="uk" displayName="Ukrainian"></enumerationValue>
+                                        <enumerationValue val="ur" displayName="Urdu"></enumerationValue>
+                                        <enumerationValue val="uz" displayName="Uzbek"></enumerationValue>
+                                        <enumerationValue val="ve" displayName="Venda"></enumerationValue>
+                                        <enumerationValue val="vi" displayName="Vietnamese"></enumerationValue>
+                                        <enumerationValue val="vo" displayName="Volapük"></enumerationValue>
+                                        <enumerationValue val="wa" displayName="Walloon"></enumerationValue>
+                                        <enumerationValue val="cy" displayName="Welsh"></enumerationValue>
+                                        <enumerationValue val="fy" displayName="Western Frisian"></enumerationValue>
+                                        <enumerationValue val="wo" displayName="Wolof"></enumerationValue>
+                                        <enumerationValue val="xh" displayName="Xhosa"></enumerationValue>
+                                        <enumerationValue val="yi" displayName="Yiddish"></enumerationValue>
+                                        <enumerationValue val="yo" displayName="Yoruba"></enumerationValue>
+                                        <enumerationValue val="za" displayName="Zhuang, Chuang"></enumerationValue>
+                                        <enumerationValue val="zu" displayName="Zulu"></enumerationValue>
+                                    </valueRestriction>
+                                </valueType>
+                                <propertyRedirect propertyPath="Language Code Updater/language_code"/>
+                            </propertyDefinition>
+                            <propertyDefinition displayName="Encoder Preset Filter" name="encoder_preset_filter" group="Speaker Positions" dynamic="true">
+                                <valueType type="STRING">
+                                    <valueRestriction strictEnum="true">
+                                        <enumerationValue displayName="Pass-through"></enumerationValue>
+                                        <enumerationValue val="" displayName="Custom"></enumerationValue>
+                                        <enumerationValue val="DTS" displayName="DTS"></enumerationValue>
+                                        <enumerationValue val="Dolby_Digital" displayName="Dolby Digital"></enumerationValue>
+                                        <enumerationValue val="AAC" displayName="AAC"></enumerationValue>
+                                        <enumerationValue val="WAVE" displayName="WAVE"></enumerationValue>
+                                    </valueRestriction>
+                                </valueType>
+                                <propertyRedirect propertyPath="Speaker Position Assigner/encoder_preset_filter"/>
+                            </propertyDefinition>
+                            <propertyDefinition displayName="Channel Preset" name="channel_position_preset" group="Speaker Positions" dynamic="true">
+                                <valueType type="STRING">
+                                    <valueRestriction strictEnum="true">
+                                        <enumerationValue val="" displayName="Custom"></enumerationValue>
+                                        <enumerationValue val="C" displayName="1.0 (C)"></enumerationValue>
+                                        <enumerationValue val="MONO" displayName="1.0 (MONO)"></enumerationValue>
+                                        <enumerationValue val="L_R" displayName="2.0 (L, R)"></enumerationValue>
+                                        <enumerationValue val="Lt_Rt" displayName="2.0 (Lt, Rt)"></enumerationValue>
+                                        <enumerationValue val="L_R_LFE" displayName="2.1 (L, R, LFE)"></enumerationValue>
+                                        <enumerationValue val="C_L_R" displayName="3.0 (C, L, R)"></enumerationValue>
+                                        <enumerationValue val="L_R_C" displayName="3.0 (L, R, C)"></enumerationValue>
+                                        <enumerationValue val="L_R_Ls" displayName="3.0 (L, R, Ls)"></enumerationValue>
+                                        <enumerationValue val="L_R_Cs" displayName="3.0 (L, R, Cs)"></enumerationValue>
+                                        <enumerationValue val="L_R_C_LFE" displayName="3.1 (L, R, C, LFE)"></enumerationValue>
+                                        <enumerationValue val="L_R_LFE_Cs" displayName="3.1 (L, R, LFE, Cs)"></enumerationValue>
+                                        <enumerationValue val="C_L_R_LFE" displayName="3.1 (C, L, R, LFE)"></enumerationValue>
+                                        <enumerationValue val="L_R_Ls_LFE" displayName="3.1 (L, R, Ls, LFE)"></enumerationValue>
+                                        <enumerationValue val="L_R_Cs_LFE" displayName="3.1 (L, R, Cs, LFE)"></enumerationValue>
+                                        <enumerationValue val="L_R_C_Cs" displayName="4.0 (L, R, C, Cs)"></enumerationValue>
+                                        <enumerationValue val="L_R_Ls_Rs" displayName="4.0 (L, R, Ls, Rs)"></enumerationValue>
+                                        <enumerationValue val="L_R_Ls_Rs_LFE" displayName="4.1 (L, R, Ls, Rs, LFE)"></enumerationValue>
+                                        <enumerationValue val="L_R_C_LFE_Cs" displayName="4.1 (L, R, C, LFE, Cs)"></enumerationValue>
+                                        <enumerationValue val="L_R_LFE_Ls_Rs" displayName="4.1 (L, R, LFE, Ls, Rs)"></enumerationValue>
+                                        <enumerationValue val="C_L_R_Ls_Rs" displayName="5.0 (C, L, R, Ls, Rs)"></enumerationValue>
+                                        <enumerationValue val="L_R_C_Ls_Rs" displayName="5.0 (L, R, C, Ls, Rs)"></enumerationValue>
+                                        <enumerationValue val="L_R_Ls_Rs_Ts" displayName="5.0 (L, R, Ls, Rs, Ts)"></enumerationValue>
+                                        <enumerationValue val="L_R_Ls_Rs_Cs" displayName="5.0 (L, R, Ls, Rs, Cs)"></enumerationValue>
+                                        <enumerationValue val="L_R_C_Sls_Srs" displayName="5.0 (L, R, C, Sls, Srs)"></enumerationValue>
+                                        <enumerationValue val="C_L_R_Ls_Rs_LFE" displayName="5.1 (C, L, R, Ls, Rs, LFE)"></enumerationValue>
+                                        <enumerationValue val="L_R_C_LFE_Ls_Rs" displayName="5.1 (L, R, C, LFE, Ls, Rs)"></enumerationValue>
+                                        <enumerationValue val="L_R_C_Ls_Rs_LFE" displayName="5.1 (L, R, C, Ls, Rs, LFE)"></enumerationValue>
+                                        <enumerationValue val="L_R_C_Sls_Srs_LFE" displayName="5.1 (L, R, C, Sls, Srs, LFE)"></enumerationValue>
+                                        <enumerationValue val="L_R_Ls_Rs_Ts_LFE" displayName="5.1 (L, R, Ls, Rs, Ts, LFE)"></enumerationValue>
+                                        <enumerationValue val="L_R_Ls_Rs_Cs_LFE" displayName="5.1 (L, R, Ls, Rs, Cs, LFE)"></enumerationValue>
+                                        <enumerationValue val="L_R_C_LFE_Sls_Srs" displayName="5.1 (L, R, C, LFE, Sls, Srs)"></enumerationValue>
+                                        <enumerationValue val="L_R_Ls_Rs_Lc_Rc" displayName="6.0 (L, R, Ls, Rs, Lc, Rc)"></enumerationValue>
+                                        <enumerationValue val="L_R_Ls_Rs_Lw_Rw" displayName="6.0 (L, R, Ls, Rs, Lw, Rw)"></enumerationValue>
+                                        <enumerationValue val="L_R_Ls_Rs_Vhl_Vhr" displayName="6.0 (L, R, Ls, Rs, Vhl, Vhr)"></enumerationValue>
+                                        <enumerationValue val="L_R_Ls_Rs_Lsd_Rsd" displayName="6.0 (L, R, Ls, Rs, Lsd, Rsd)"></enumerationValue>
+                                        <enumerationValue val="L_R_Ls_Rs_Rls_Rrs" displayName="6.0 (L, R, Ls, Rs, Rls, Rrs)"></enumerationValue>
+                                        <enumerationValue val="L_R_Ls_Rs_Cs_Ts" displayName="6.0 (L, R, Ls, Rs, Cs, Ts)"></enumerationValue>
+                                        <enumerationValue val="C_L_R_Ls_Rs_Cs" displayName="6.0 (C, L, R, Ls, Rs, Cs)"></enumerationValue>
+                                        <enumerationValue val="L_R_C_Ls_Rs_Cs" displayName="6.0 (L, R, C, Ls, Rs, Cs)"></enumerationValue>
+                                        <enumerationValue val="L_R_Ls_Rs_Lh_Rh" displayName="6.0 (L, R, Ls, Rs, Lh, Rh)"></enumerationValue>
+                                        <enumerationValue val="L_R_C_Cs_Sls_Srs" displayName="6.0 (L, R, C, Cs, Sls, Srs)"></enumerationValue>
+                                        <enumerationValue val="C_L_R_Ls_Rs_Cs_LFE" displayName="6.1 (C, L, R, Ls, Rs, Cs, LFE)"></enumerationValue>
+                                        <enumerationValue val="L_R_Ls_Rs_Lc_Rc_LFE" displayName="6.1 (L, R, Ls, Rs, Lc, Rc, LFE)"></enumerationValue>
+                                        <enumerationValue val="L_R_Ls_Rs_Lw_Rw_LFE" displayName="6.1 (L, R, Ls, Rs, Lw, Rw, LFE)"></enumerationValue>
+                                        <enumerationValue val="L_R_Ls_Rs_Lsd_Rsd_LFE" displayName="6.1 (L, R, Ls, Rs, Lsd, Rsd, LFE)"></enumerationValue>
+                                        <enumerationValue val="L_R_Ls_Rs_Rls_Rrs_LFE" displayName="6.1 (L, R, Ls, Rs, Rls, Rrs, LFE)"></enumerationValue>
+                                        <enumerationValue val="L_R_Ls_Rs_Cs_Ts_LFE" displayName="6.1 (L, R, Ls, Rs, Cs, Ts, LFE)"></enumerationValue>
+                                        <enumerationValue val="L_R_Ls_Rs_Vhl_Vhr_LFE" displayName="6.1 (L, R, Ls, Rs, Vhl, Vhr, LFE)"></enumerationValue>
+                                        <enumerationValue val="L_R_C_LFE_Ls_Rs_Cs" displayName="6.1 (L, R, C, LFE, Ls, Rs, Cs)"></enumerationValue>
+                                        <enumerationValue val="L_R_Ls_Rs_Lh_Rh_LFE" displayName="6.1 (L, R, Ls, Rs, Lh, Rh, LFE)"></enumerationValue>
+                                        <enumerationValue val="L_R_C_LFE_Cs_Sls_Srs" displayName="6.1 (L, R, C, LFE, Cs, Sls, Srs)"></enumerationValue>
+                                        <enumerationValue val="C_L_R_Ls_Rs_Rls_Rrs" displayName="7.0 (C, L, R, Ls, Rs, Rls, Rrs)"></enumerationValue>
+                                        <enumerationValue val="C_L_R_Ls_Rs_Vhsl_Vhsr" displayName="7.0 (C, L, R, Ls, Rs, Vhsl, Vhsr)"></enumerationValue>
+                                        <enumerationValue val="C_L_R_Sls_Srs_Rls_Rrs" displayName="7.0 (C, L, R, Sls, Srs, Rls, Rrs)"></enumerationValue>
+                                        <enumerationValue val="C_L_R_Ls_Rs_Vhl_Vhr" displayName="7.0 (C, L, R, Ls, Rs, Vhl, Vhr)"></enumerationValue>
+                                        <enumerationValue val="C_L_R_Ls_Rs_Cs_Vhc" displayName="7.0 (C, L, R, Ls, Rs, Cs, Vhc)"></enumerationValue>
+                                        <enumerationValue val="C_L_R_Ls_Rs_Cs_Ts" displayName="7.0 (C, L, R, Ls, Rs, Cs, Ts)"></enumerationValue>
+                                        <enumerationValue val="C_L_R_Ls_Rs_Lw_Rw" displayName="7.0 (C, L, R, Ls, Rs, Lw, Rw)"></enumerationValue>
+                                        <enumerationValue val="L_R_C_Ls_Rs_Rls_Rrs" displayName="7.0 (L, R, C, Ls, Rs, Rls, Rrs)"></enumerationValue>
+                                        <enumerationValue val="C_L_R_Ls_Rs_Cs_Oh" displayName="7.0 (C, L, R, Ls, Rs, Cs, Oh)"></enumerationValue>
+                                        <enumerationValue val="C_L_R_Ls_Rs_Cs_Ch" displayName="7.0 (C, L, R, Ls, Rs, Cs, Ch)"></enumerationValue>
+                                        <enumerationValue val="C_L_R_Ls_Rs_Lsr_Rsr" displayName="7.0 (C, L, R, Ls, Rs, Lsr, Rsr)"></enumerationValue>
+                                        <enumerationValue val="C_L_R_Ls_Rs_Lh_Rh" displayName="7.0 (C, L, R, Ls, Rs, Lh, Rh)"></enumerationValue>
+                                        <enumerationValue val="C_L_R_Ls_Rs_Lhs_Rhs" displayName="7.0 (C, L, R, Ls, Rs, Lhs, Rhs)"></enumerationValue>
+                                        <enumerationValue val="C_L_R_Lss_Rss_Lsr_Rsr" displayName="7.0 (C, L, R, Lss, Rss, Lsr, Rsr)"></enumerationValue>
+                                        <enumerationValue val="L_R_C_Ls_Rs_Lc_Rc" displayName="7.0 (L, R, C, Ls, Rs, Lc, Rc)"></enumerationValue>
+                                        <enumerationValue val="L_R_C_Lc_Rc_Sls_Srs" displayName="7.0 (L, R, C, Lc, Rc, Sls, Srs)"></enumerationValue>
+                                        <enumerationValue val="L_R_C_Ls_Rs_Sls_Srs" displayName="7.0 (L, R, C, Ls, Rs, Sls, Srs)"></enumerationValue>
+                                        <enumerationValue val="C_L_R_Ls_Rs_Rls_Rrs_LFE" displayName="7.1 (C, L, R, Ls, Rs, Rls, Rrs, LFE)"></enumerationValue>
+                                        <enumerationValue val="C_L_R_Ls_Rs_Vhsl_Vhsr_LFE" displayName="7.1 (C, L, R, Ls, Rs, Vhsl, Vhsr, LFE)"></enumerationValue>
+                                        <enumerationValue val="C_L_R_Sls_Srs_Rls_Rrs_LFE" displayName="7.1 (C, L, R, Sls, Srs, Rls, Rrs, LFE)"></enumerationValue>
+                                        <enumerationValue val="C_L_R_Ls_Rs_Vhl_Vhr_LFE" displayName="7.1 (C, L, R, Ls, Rs, Vhl, Vhr, LFE)"></enumerationValue>
+                                        <enumerationValue val="C_L_R_Ls_Rs_Cs_Vhc_LFE" displayName="7.1 (C, L, R, Ls, Rs, Cs, Vhc, LFE)"></enumerationValue>
+                                        <enumerationValue val="C_L_R_Ls_Rs_Cs_Ts_LFE" displayName="7.1 (C, L, R, Ls, Rs, Cs, Ts, LFE)"></enumerationValue>
+                                        <enumerationValue val="C_L_R_Ls_Rs_Lw_Rw_LFE" displayName="7.1 (C, L, R, Ls, Rs, Lw, Rw, LFE)"></enumerationValue>
+                                        <enumerationValue val="L_R_C_LFE_Ls_Rs_Sls_Srs" displayName="7.1 (L, R, C, LFE, Ls, Rs, Sls, Srs)"></enumerationValue>
+                                        <enumerationValue val="L_R_C_Ls_Rs_Lc_Rc_LFE" displayName="7.1 (L, R, C, Ls, Rs, Lc, Rc, LFE)"></enumerationValue>
+                                        <enumerationValue val="L_R_C_Ls_Rs_Sls_Srs_LFE" displayName="7.1 (L, R, C, Ls, Rs, Sls, Srs, LFE)"></enumerationValue>
+                                        <enumerationValue val="L_R_C_LFE_Ls_Rs_Rls_Rrs" displayName="7.1 (L, R, C, LFE, Ls, Rs, Rls, Rrs)"></enumerationValue>
+                                        <enumerationValue val="C_L_R_Ls_Rs_Cs_Oh_LFE" displayName="7.1 (C, L, R, Ls, Rs, Cs, Oh, LFE)"></enumerationValue>
+                                        <enumerationValue val="C_L_R_Ls_Rs_Cs_Ch_LFE" displayName="7.1 (C, L, R, Ls, Rs, Cs, Ch, LFE)"></enumerationValue>
+                                        <enumerationValue val="C_L_R_Ls_Rs_Lsr_Rsr_LFE" displayName="7.1 (C, L, R, Ls, Rs, Lsr, Rsr, LFE)"></enumerationValue>
+                                        <enumerationValue val="C_L_R_Ls_Rs_Lh_Rh_LFE" displayName="7.1 (C, L, R, Ls, Rs, Lh, Rh, LFE)"></enumerationValue>
+                                        <enumerationValue val="C_L_R_Ls_Rs_Lhs_Rhs_LFE" displayName="7.1 (C, L, R, Ls, Rs, Lhs, Rhs, LFE)"></enumerationValue>
+                                        <enumerationValue val="C_L_R_Lss_Rss_Lsr_Rsr_LFE" displayName="7.1 (C, L, R, Lss, Rss, Lsr, Rsr, LFE)"></enumerationValue>
+                                        <enumerationValue val="L_R_C_LFE_Ls_Rs_Lc_Rc" displayName="7.1 (L, R, C, LFE, Ls, Rs, Lc, Rc)"></enumerationValue>
+                                        <enumerationValue val="L_R_C_LFE_Lc_Rc_Sls_Srs" displayName="7.1 (L, R, C, LFE, Lc, Rc, Sls, Srs)"></enumerationValue>
+                                    </valueRestriction>
+                                </valueType>
+                                <propertyRedirect propertyPath="Speaker Position Assigner/channel_position_preset"/>
+                            </propertyDefinition>
+                            <propertyDefinition displayName="Channel 1 Speaker" name="channel1_speaker" group="Speaker Positions" dynamic="true">
+                                <valueType type="STRING">
+                                    <valueRestriction strictEnum="true">
+                                        <enumerationValue val="" displayName="None"></enumerationValue>
+                                        <enumerationValue val="MONO" displayName="Mono"></enumerationValue>
+                                        <enumerationValue val="C_CENTER" displayName="Center"></enumerationValue>
+                                        <enumerationValue val="L_LEFT" displayName="Left"></enumerationValue>
+                                        <enumerationValue val="R_RIGHT" displayName="Right"></enumerationValue>
+                                        <enumerationValue val="Lt_LEFT" displayName="Lt Left"></enumerationValue>
+                                        <enumerationValue val="Rt_RIGHT" displayName="Rt Right"></enumerationValue>
+                                        <enumerationValue val="Cs_CENTER_SURROUND" displayName="Center surround"></enumerationValue>
+                                        <enumerationValue val="Ls_LEFT_SURROUND" displayName="Left surround"></enumerationValue>
+                                        <enumerationValue val="Rs_RIGHT_SURROUND" displayName="Right surround"></enumerationValue>
+                                        <enumerationValue val="LFE_LOW_FREQUENCY" displayName="Low frequency"></enumerationValue>
+                                        <enumerationValue val="Rls_REAR_LEFT_SURROUND" displayName="Rear left surround"></enumerationValue>
+                                        <enumerationValue val="Rrs_REAR_RIGHT_SURROUND" displayName="Rear right surround"></enumerationValue>
+                                        <enumerationValue val="Sls_SIDE_LEFT_SURROUND" displayName="Side left surround"></enumerationValue>
+                                        <enumerationValue val="Srs_SIDE_RIGHT_SURROUND" displayName="Side right surround"></enumerationValue>
+                                        <enumerationValue val="Lc_LEFT_CENTER" displayName="Left center"></enumerationValue>
+                                        <enumerationValue val="Rc_RIGHT_CENTER" displayName="Right center"></enumerationValue>
+                                        <enumerationValue val="Lw_LEFT_WIDE" displayName="Left wide"></enumerationValue>
+                                        <enumerationValue val="Rw_RIGHT_WIDE" displayName="Right wide"></enumerationValue>
+                                        <enumerationValue val="Lsd_LEFT_SURROUND_DIRECTIONAL" displayName="Left surround directional"></enumerationValue>
+                                        <enumerationValue val="Rsd_RIGHT_SURROUND_DIRECTIONAL" displayName="Right surround directional"></enumerationValue>
+                                        <enumerationValue val="LFE2_LOW_FREQUENCY" displayName="Low frequency 2"></enumerationValue>
+                                        <enumerationValue val="Ts_TOP_CENTER_SURROUND" displayName="Top center surround"></enumerationValue>
+                                        <enumerationValue val="Vhc_VERTICAL_HEIGHT_CENTER" displayName="Vertical height center"></enumerationValue>
+                                        <enumerationValue val="Vhl_VERTICAL_HEIGHT_LEFT" displayName="Vertical height left"></enumerationValue>
+                                        <enumerationValue val="Vhr_VERTICAL_HEIGHT_RIGHT" displayName="Vertical height right"></enumerationValue>
+                                        <enumerationValue val="Vhsl_VERTICAL_HEIGHT_SIDE_LEFT" displayName="Vertical height side left"></enumerationValue>
+                                        <enumerationValue val="Vhsr_VERTICAL_HEIGHT_SIDE_RIGHT" displayName="Vertical height side right"></enumerationValue>
+                                        <enumerationValue val="Vhrc_VERTICAL_HEIGHT_REAR_CENTER" displayName="Vertical height rear center"></enumerationValue>
+                                        <enumerationValue val="Vhrl_VERTICAL_HEIGHT_REAR_LEFT" displayName="Vertical height rear left"></enumerationValue>
+                                        <enumerationValue val="Vhrr_VERTICAL_HEIGHT_REAR_RIGHT" displayName="Vertical height rear right"></enumerationValue>
+                                    </valueRestriction>
+                                </valueType>
+                                <propertyRedirect propertyPath="Speaker Position Assigner/channel1_speaker"/>
+                            </propertyDefinition>
+                            <propertyDefinition displayName="Channel 2 Speaker" name="channel2_speaker" group="Speaker Positions" dynamic="true">
+                                <valueType type="STRING">
+                                    <valueRestriction strictEnum="true">
+                                        <enumerationValue val="" displayName="None"></enumerationValue>
+                                        <enumerationValue val="MONO" displayName="Mono"></enumerationValue>
+                                        <enumerationValue val="C_CENTER" displayName="Center"></enumerationValue>
+                                        <enumerationValue val="L_LEFT" displayName="Left"></enumerationValue>
+                                        <enumerationValue val="R_RIGHT" displayName="Right"></enumerationValue>
+                                        <enumerationValue val="Lt_LEFT" displayName="Lt Left"></enumerationValue>
+                                        <enumerationValue val="Rt_RIGHT" displayName="Rt Right"></enumerationValue>
+                                        <enumerationValue val="Cs_CENTER_SURROUND" displayName="Center surround"></enumerationValue>
+                                        <enumerationValue val="Ls_LEFT_SURROUND" displayName="Left surround"></enumerationValue>
+                                        <enumerationValue val="Rs_RIGHT_SURROUND" displayName="Right surround"></enumerationValue>
+                                        <enumerationValue val="LFE_LOW_FREQUENCY" displayName="Low frequency"></enumerationValue>
+                                        <enumerationValue val="Rls_REAR_LEFT_SURROUND" displayName="Rear left surround"></enumerationValue>
+                                        <enumerationValue val="Rrs_REAR_RIGHT_SURROUND" displayName="Rear right surround"></enumerationValue>
+                                        <enumerationValue val="Sls_SIDE_LEFT_SURROUND" displayName="Side left surround"></enumerationValue>
+                                        <enumerationValue val="Srs_SIDE_RIGHT_SURROUND" displayName="Side right surround"></enumerationValue>
+                                        <enumerationValue val="Lc_LEFT_CENTER" displayName="Left center"></enumerationValue>
+                                        <enumerationValue val="Rc_RIGHT_CENTER" displayName="Right center"></enumerationValue>
+                                        <enumerationValue val="Lw_LEFT_WIDE" displayName="Left wide"></enumerationValue>
+                                        <enumerationValue val="Rw_RIGHT_WIDE" displayName="Right wide"></enumerationValue>
+                                        <enumerationValue val="Lsd_LEFT_SURROUND_DIRECTIONAL" displayName="Left surround directional"></enumerationValue>
+                                        <enumerationValue val="Rsd_RIGHT_SURROUND_DIRECTIONAL" displayName="Right surround directional"></enumerationValue>
+                                        <enumerationValue val="LFE2_LOW_FREQUENCY" displayName="Low frequency 2"></enumerationValue>
+                                        <enumerationValue val="Ts_TOP_CENTER_SURROUND" displayName="Top center surround"></enumerationValue>
+                                        <enumerationValue val="Vhc_VERTICAL_HEIGHT_CENTER" displayName="Vertical height center"></enumerationValue>
+                                        <enumerationValue val="Vhl_VERTICAL_HEIGHT_LEFT" displayName="Vertical height left"></enumerationValue>
+                                        <enumerationValue val="Vhr_VERTICAL_HEIGHT_RIGHT" displayName="Vertical height right"></enumerationValue>
+                                        <enumerationValue val="Vhsl_VERTICAL_HEIGHT_SIDE_LEFT" displayName="Vertical height side left"></enumerationValue>
+                                        <enumerationValue val="Vhsr_VERTICAL_HEIGHT_SIDE_RIGHT" displayName="Vertical height side right"></enumerationValue>
+                                        <enumerationValue val="Vhrc_VERTICAL_HEIGHT_REAR_CENTER" displayName="Vertical height rear center"></enumerationValue>
+                                        <enumerationValue val="Vhrl_VERTICAL_HEIGHT_REAR_LEFT" displayName="Vertical height rear left"></enumerationValue>
+                                        <enumerationValue val="Vhrr_VERTICAL_HEIGHT_REAR_RIGHT" displayName="Vertical height rear right"></enumerationValue>
+                                    </valueRestriction>
+                                </valueType>
+                                <propertyRedirect propertyPath="Speaker Position Assigner/channel2_speaker"/>
+                            </propertyDefinition>
+                            <propertyDefinition displayName="Channel 3 Speaker" name="channel3_speaker" group="Speaker Positions" dynamic="true">
+                                <valueType type="STRING">
+                                    <valueRestriction strictEnum="true">
+                                        <enumerationValue val="" displayName="None"></enumerationValue>
+                                        <enumerationValue val="MONO" displayName="Mono"></enumerationValue>
+                                        <enumerationValue val="C_CENTER" displayName="Center"></enumerationValue>
+                                        <enumerationValue val="L_LEFT" displayName="Left"></enumerationValue>
+                                        <enumerationValue val="R_RIGHT" displayName="Right"></enumerationValue>
+                                        <enumerationValue val="Lt_LEFT" displayName="Lt Left"></enumerationValue>
+                                        <enumerationValue val="Rt_RIGHT" displayName="Rt Right"></enumerationValue>
+                                        <enumerationValue val="Cs_CENTER_SURROUND" displayName="Center surround"></enumerationValue>
+                                        <enumerationValue val="Ls_LEFT_SURROUND" displayName="Left surround"></enumerationValue>
+                                        <enumerationValue val="Rs_RIGHT_SURROUND" displayName="Right surround"></enumerationValue>
+                                        <enumerationValue val="LFE_LOW_FREQUENCY" displayName="Low frequency"></enumerationValue>
+                                        <enumerationValue val="Rls_REAR_LEFT_SURROUND" displayName="Rear left surround"></enumerationValue>
+                                        <enumerationValue val="Rrs_REAR_RIGHT_SURROUND" displayName="Rear right surround"></enumerationValue>
+                                        <enumerationValue val="Sls_SIDE_LEFT_SURROUND" displayName="Side left surround"></enumerationValue>
+                                        <enumerationValue val="Srs_SIDE_RIGHT_SURROUND" displayName="Side right surround"></enumerationValue>
+                                        <enumerationValue val="Lc_LEFT_CENTER" displayName="Left center"></enumerationValue>
+                                        <enumerationValue val="Rc_RIGHT_CENTER" displayName="Right center"></enumerationValue>
+                                        <enumerationValue val="Lw_LEFT_WIDE" displayName="Left wide"></enumerationValue>
+                                        <enumerationValue val="Rw_RIGHT_WIDE" displayName="Right wide"></enumerationValue>
+                                        <enumerationValue val="Lsd_LEFT_SURROUND_DIRECTIONAL" displayName="Left surround directional"></enumerationValue>
+                                        <enumerationValue val="Rsd_RIGHT_SURROUND_DIRECTIONAL" displayName="Right surround directional"></enumerationValue>
+                                        <enumerationValue val="LFE2_LOW_FREQUENCY" displayName="Low frequency 2"></enumerationValue>
+                                        <enumerationValue val="Ts_TOP_CENTER_SURROUND" displayName="Top center surround"></enumerationValue>
+                                        <enumerationValue val="Vhc_VERTICAL_HEIGHT_CENTER" displayName="Vertical height center"></enumerationValue>
+                                        <enumerationValue val="Vhl_VERTICAL_HEIGHT_LEFT" displayName="Vertical height left"></enumerationValue>
+                                        <enumerationValue val="Vhr_VERTICAL_HEIGHT_RIGHT" displayName="Vertical height right"></enumerationValue>
+                                        <enumerationValue val="Vhsl_VERTICAL_HEIGHT_SIDE_LEFT" displayName="Vertical height side left"></enumerationValue>
+                                        <enumerationValue val="Vhsr_VERTICAL_HEIGHT_SIDE_RIGHT" displayName="Vertical height side right"></enumerationValue>
+                                        <enumerationValue val="Vhrc_VERTICAL_HEIGHT_REAR_CENTER" displayName="Vertical height rear center"></enumerationValue>
+                                        <enumerationValue val="Vhrl_VERTICAL_HEIGHT_REAR_LEFT" displayName="Vertical height rear left"></enumerationValue>
+                                        <enumerationValue val="Vhrr_VERTICAL_HEIGHT_REAR_RIGHT" displayName="Vertical height rear right"></enumerationValue>
+                                    </valueRestriction>
+                                </valueType>
+                                <propertyRedirect propertyPath="Speaker Position Assigner/channel3_speaker"/>
+                            </propertyDefinition>
+                            <propertyDefinition displayName="Channel 4 Speaker" name="channel4_speaker" group="Speaker Positions" dynamic="true">
+                                <valueType type="STRING">
+                                    <valueRestriction strictEnum="true">
+                                        <enumerationValue val="" displayName="None"></enumerationValue>
+                                        <enumerationValue val="MONO" displayName="Mono"></enumerationValue>
+                                        <enumerationValue val="C_CENTER" displayName="Center"></enumerationValue>
+                                        <enumerationValue val="L_LEFT" displayName="Left"></enumerationValue>
+                                        <enumerationValue val="R_RIGHT" displayName="Right"></enumerationValue>
+                                        <enumerationValue val="Lt_LEFT" displayName="Lt Left"></enumerationValue>
+                                        <enumerationValue val="Rt_RIGHT" displayName="Rt Right"></enumerationValue>
+                                        <enumerationValue val="Cs_CENTER_SURROUND" displayName="Center surround"></enumerationValue>
+                                        <enumerationValue val="Ls_LEFT_SURROUND" displayName="Left surround"></enumerationValue>
+                                        <enumerationValue val="Rs_RIGHT_SURROUND" displayName="Right surround"></enumerationValue>
+                                        <enumerationValue val="LFE_LOW_FREQUENCY" displayName="Low frequency"></enumerationValue>
+                                        <enumerationValue val="Rls_REAR_LEFT_SURROUND" displayName="Rear left surround"></enumerationValue>
+                                        <enumerationValue val="Rrs_REAR_RIGHT_SURROUND" displayName="Rear right surround"></enumerationValue>
+                                        <enumerationValue val="Sls_SIDE_LEFT_SURROUND" displayName="Side left surround"></enumerationValue>
+                                        <enumerationValue val="Srs_SIDE_RIGHT_SURROUND" displayName="Side right surround"></enumerationValue>
+                                        <enumerationValue val="Lc_LEFT_CENTER" displayName="Left center"></enumerationValue>
+                                        <enumerationValue val="Rc_RIGHT_CENTER" displayName="Right center"></enumerationValue>
+                                        <enumerationValue val="Lw_LEFT_WIDE" displayName="Left wide"></enumerationValue>
+                                        <enumerationValue val="Rw_RIGHT_WIDE" displayName="Right wide"></enumerationValue>
+                                        <enumerationValue val="Lsd_LEFT_SURROUND_DIRECTIONAL" displayName="Left surround directional"></enumerationValue>
+                                        <enumerationValue val="Rsd_RIGHT_SURROUND_DIRECTIONAL" displayName="Right surround directional"></enumerationValue>
+                                        <enumerationValue val="LFE2_LOW_FREQUENCY" displayName="Low frequency 2"></enumerationValue>
+                                        <enumerationValue val="Ts_TOP_CENTER_SURROUND" displayName="Top center surround"></enumerationValue>
+                                        <enumerationValue val="Vhc_VERTICAL_HEIGHT_CENTER" displayName="Vertical height center"></enumerationValue>
+                                        <enumerationValue val="Vhl_VERTICAL_HEIGHT_LEFT" displayName="Vertical height left"></enumerationValue>
+                                        <enumerationValue val="Vhr_VERTICAL_HEIGHT_RIGHT" displayName="Vertical height right"></enumerationValue>
+                                        <enumerationValue val="Vhsl_VERTICAL_HEIGHT_SIDE_LEFT" displayName="Vertical height side left"></enumerationValue>
+                                        <enumerationValue val="Vhsr_VERTICAL_HEIGHT_SIDE_RIGHT" displayName="Vertical height side right"></enumerationValue>
+                                        <enumerationValue val="Vhrc_VERTICAL_HEIGHT_REAR_CENTER" displayName="Vertical height rear center"></enumerationValue>
+                                        <enumerationValue val="Vhrl_VERTICAL_HEIGHT_REAR_LEFT" displayName="Vertical height rear left"></enumerationValue>
+                                        <enumerationValue val="Vhrr_VERTICAL_HEIGHT_REAR_RIGHT" displayName="Vertical height rear right"></enumerationValue>
+                                    </valueRestriction>
+                                </valueType>
+                                <propertyRedirect propertyPath="Speaker Position Assigner/channel4_speaker"/>
+                            </propertyDefinition>
+                            <propertyDefinition displayName="Channel 5 Speaker" name="channel5_speaker" group="Speaker Positions" dynamic="true">
+                                <valueType type="STRING">
+                                    <valueRestriction strictEnum="true">
+                                        <enumerationValue val="" displayName="None"></enumerationValue>
+                                        <enumerationValue val="MONO" displayName="Mono"></enumerationValue>
+                                        <enumerationValue val="C_CENTER" displayName="Center"></enumerationValue>
+                                        <enumerationValue val="L_LEFT" displayName="Left"></enumerationValue>
+                                        <enumerationValue val="R_RIGHT" displayName="Right"></enumerationValue>
+                                        <enumerationValue val="Lt_LEFT" displayName="Lt Left"></enumerationValue>
+                                        <enumerationValue val="Rt_RIGHT" displayName="Rt Right"></enumerationValue>
+                                        <enumerationValue val="Cs_CENTER_SURROUND" displayName="Center surround"></enumerationValue>
+                                        <enumerationValue val="Ls_LEFT_SURROUND" displayName="Left surround"></enumerationValue>
+                                        <enumerationValue val="Rs_RIGHT_SURROUND" displayName="Right surround"></enumerationValue>
+                                        <enumerationValue val="LFE_LOW_FREQUENCY" displayName="Low frequency"></enumerationValue>
+                                        <enumerationValue val="Rls_REAR_LEFT_SURROUND" displayName="Rear left surround"></enumerationValue>
+                                        <enumerationValue val="Rrs_REAR_RIGHT_SURROUND" displayName="Rear right surround"></enumerationValue>
+                                        <enumerationValue val="Sls_SIDE_LEFT_SURROUND" displayName="Side left surround"></enumerationValue>
+                                        <enumerationValue val="Srs_SIDE_RIGHT_SURROUND" displayName="Side right surround"></enumerationValue>
+                                        <enumerationValue val="Lc_LEFT_CENTER" displayName="Left center"></enumerationValue>
+                                        <enumerationValue val="Rc_RIGHT_CENTER" displayName="Right center"></enumerationValue>
+                                        <enumerationValue val="Lw_LEFT_WIDE" displayName="Left wide"></enumerationValue>
+                                        <enumerationValue val="Rw_RIGHT_WIDE" displayName="Right wide"></enumerationValue>
+                                        <enumerationValue val="Lsd_LEFT_SURROUND_DIRECTIONAL" displayName="Left surround directional"></enumerationValue>
+                                        <enumerationValue val="Rsd_RIGHT_SURROUND_DIRECTIONAL" displayName="Right surround directional"></enumerationValue>
+                                        <enumerationValue val="LFE2_LOW_FREQUENCY" displayName="Low frequency 2"></enumerationValue>
+                                        <enumerationValue val="Ts_TOP_CENTER_SURROUND" displayName="Top center surround"></enumerationValue>
+                                        <enumerationValue val="Vhc_VERTICAL_HEIGHT_CENTER" displayName="Vertical height center"></enumerationValue>
+                                        <enumerationValue val="Vhl_VERTICAL_HEIGHT_LEFT" displayName="Vertical height left"></enumerationValue>
+                                        <enumerationValue val="Vhr_VERTICAL_HEIGHT_RIGHT" displayName="Vertical height right"></enumerationValue>
+                                        <enumerationValue val="Vhsl_VERTICAL_HEIGHT_SIDE_LEFT" displayName="Vertical height side left"></enumerationValue>
+                                        <enumerationValue val="Vhsr_VERTICAL_HEIGHT_SIDE_RIGHT" displayName="Vertical height side right"></enumerationValue>
+                                        <enumerationValue val="Vhrc_VERTICAL_HEIGHT_REAR_CENTER" displayName="Vertical height rear center"></enumerationValue>
+                                        <enumerationValue val="Vhrl_VERTICAL_HEIGHT_REAR_LEFT" displayName="Vertical height rear left"></enumerationValue>
+                                        <enumerationValue val="Vhrr_VERTICAL_HEIGHT_REAR_RIGHT" displayName="Vertical height rear right"></enumerationValue>
+                                    </valueRestriction>
+                                </valueType>
+                                <propertyRedirect propertyPath="Speaker Position Assigner/channel5_speaker"/>
+                            </propertyDefinition>
+                            <propertyDefinition displayName="Channel 6 Speaker" name="channel6_speaker" group="Speaker Positions" dynamic="true">
+                                <valueType type="STRING">
+                                    <valueRestriction strictEnum="true">
+                                        <enumerationValue val="" displayName="None"></enumerationValue>
+                                        <enumerationValue val="MONO" displayName="Mono"></enumerationValue>
+                                        <enumerationValue val="C_CENTER" displayName="Center"></enumerationValue>
+                                        <enumerationValue val="L_LEFT" displayName="Left"></enumerationValue>
+                                        <enumerationValue val="R_RIGHT" displayName="Right"></enumerationValue>
+                                        <enumerationValue val="Lt_LEFT" displayName="Lt Left"></enumerationValue>
+                                        <enumerationValue val="Rt_RIGHT" displayName="Rt Right"></enumerationValue>
+                                        <enumerationValue val="Cs_CENTER_SURROUND" displayName="Center surround"></enumerationValue>
+                                        <enumerationValue val="Ls_LEFT_SURROUND" displayName="Left surround"></enumerationValue>
+                                        <enumerationValue val="Rs_RIGHT_SURROUND" displayName="Right surround"></enumerationValue>
+                                        <enumerationValue val="LFE_LOW_FREQUENCY" displayName="Low frequency"></enumerationValue>
+                                        <enumerationValue val="Rls_REAR_LEFT_SURROUND" displayName="Rear left surround"></enumerationValue>
+                                        <enumerationValue val="Rrs_REAR_RIGHT_SURROUND" displayName="Rear right surround"></enumerationValue>
+                                        <enumerationValue val="Sls_SIDE_LEFT_SURROUND" displayName="Side left surround"></enumerationValue>
+                                        <enumerationValue val="Srs_SIDE_RIGHT_SURROUND" displayName="Side right surround"></enumerationValue>
+                                        <enumerationValue val="Lc_LEFT_CENTER" displayName="Left center"></enumerationValue>
+                                        <enumerationValue val="Rc_RIGHT_CENTER" displayName="Right center"></enumerationValue>
+                                        <enumerationValue val="Lw_LEFT_WIDE" displayName="Left wide"></enumerationValue>
+                                        <enumerationValue val="Rw_RIGHT_WIDE" displayName="Right wide"></enumerationValue>
+                                        <enumerationValue val="Lsd_LEFT_SURROUND_DIRECTIONAL" displayName="Left surround directional"></enumerationValue>
+                                        <enumerationValue val="Rsd_RIGHT_SURROUND_DIRECTIONAL" displayName="Right surround directional"></enumerationValue>
+                                        <enumerationValue val="LFE2_LOW_FREQUENCY" displayName="Low frequency 2"></enumerationValue>
+                                        <enumerationValue val="Ts_TOP_CENTER_SURROUND" displayName="Top center surround"></enumerationValue>
+                                        <enumerationValue val="Vhc_VERTICAL_HEIGHT_CENTER" displayName="Vertical height center"></enumerationValue>
+                                        <enumerationValue val="Vhl_VERTICAL_HEIGHT_LEFT" displayName="Vertical height left"></enumerationValue>
+                                        <enumerationValue val="Vhr_VERTICAL_HEIGHT_RIGHT" displayName="Vertical height right"></enumerationValue>
+                                        <enumerationValue val="Vhsl_VERTICAL_HEIGHT_SIDE_LEFT" displayName="Vertical height side left"></enumerationValue>
+                                        <enumerationValue val="Vhsr_VERTICAL_HEIGHT_SIDE_RIGHT" displayName="Vertical height side right"></enumerationValue>
+                                        <enumerationValue val="Vhrc_VERTICAL_HEIGHT_REAR_CENTER" displayName="Vertical height rear center"></enumerationValue>
+                                        <enumerationValue val="Vhrl_VERTICAL_HEIGHT_REAR_LEFT" displayName="Vertical height rear left"></enumerationValue>
+                                        <enumerationValue val="Vhrr_VERTICAL_HEIGHT_REAR_RIGHT" displayName="Vertical height rear right"></enumerationValue>
+                                    </valueRestriction>
+                                </valueType>
+                                <propertyRedirect propertyPath="Speaker Position Assigner/channel6_speaker"/>
+                            </propertyDefinition>
+                            <propertyDefinition displayName="Channel 7 Speaker" name="channel7_speaker" group="Speaker Positions" dynamic="true">
+                                <valueType type="STRING">
+                                    <valueRestriction strictEnum="true">
+                                        <enumerationValue val="" displayName="None"></enumerationValue>
+                                        <enumerationValue val="MONO" displayName="Mono"></enumerationValue>
+                                        <enumerationValue val="C_CENTER" displayName="Center"></enumerationValue>
+                                        <enumerationValue val="L_LEFT" displayName="Left"></enumerationValue>
+                                        <enumerationValue val="R_RIGHT" displayName="Right"></enumerationValue>
+                                        <enumerationValue val="Lt_LEFT" displayName="Lt Left"></enumerationValue>
+                                        <enumerationValue val="Rt_RIGHT" displayName="Rt Right"></enumerationValue>
+                                        <enumerationValue val="Cs_CENTER_SURROUND" displayName="Center surround"></enumerationValue>
+                                        <enumerationValue val="Ls_LEFT_SURROUND" displayName="Left surround"></enumerationValue>
+                                        <enumerationValue val="Rs_RIGHT_SURROUND" displayName="Right surround"></enumerationValue>
+                                        <enumerationValue val="LFE_LOW_FREQUENCY" displayName="Low frequency"></enumerationValue>
+                                        <enumerationValue val="Rls_REAR_LEFT_SURROUND" displayName="Rear left surround"></enumerationValue>
+                                        <enumerationValue val="Rrs_REAR_RIGHT_SURROUND" displayName="Rear right surround"></enumerationValue>
+                                        <enumerationValue val="Sls_SIDE_LEFT_SURROUND" displayName="Side left surround"></enumerationValue>
+                                        <enumerationValue val="Srs_SIDE_RIGHT_SURROUND" displayName="Side right surround"></enumerationValue>
+                                        <enumerationValue val="Lc_LEFT_CENTER" displayName="Left center"></enumerationValue>
+                                        <enumerationValue val="Rc_RIGHT_CENTER" displayName="Right center"></enumerationValue>
+                                        <enumerationValue val="Lw_LEFT_WIDE" displayName="Left wide"></enumerationValue>
+                                        <enumerationValue val="Rw_RIGHT_WIDE" displayName="Right wide"></enumerationValue>
+                                        <enumerationValue val="Lsd_LEFT_SURROUND_DIRECTIONAL" displayName="Left surround directional"></enumerationValue>
+                                        <enumerationValue val="Rsd_RIGHT_SURROUND_DIRECTIONAL" displayName="Right surround directional"></enumerationValue>
+                                        <enumerationValue val="LFE2_LOW_FREQUENCY" displayName="Low frequency 2"></enumerationValue>
+                                        <enumerationValue val="Ts_TOP_CENTER_SURROUND" displayName="Top center surround"></enumerationValue>
+                                        <enumerationValue val="Vhc_VERTICAL_HEIGHT_CENTER" displayName="Vertical height center"></enumerationValue>
+                                        <enumerationValue val="Vhl_VERTICAL_HEIGHT_LEFT" displayName="Vertical height left"></enumerationValue>
+                                        <enumerationValue val="Vhr_VERTICAL_HEIGHT_RIGHT" displayName="Vertical height right"></enumerationValue>
+                                        <enumerationValue val="Vhsl_VERTICAL_HEIGHT_SIDE_LEFT" displayName="Vertical height side left"></enumerationValue>
+                                        <enumerationValue val="Vhsr_VERTICAL_HEIGHT_SIDE_RIGHT" displayName="Vertical height side right"></enumerationValue>
+                                        <enumerationValue val="Vhrc_VERTICAL_HEIGHT_REAR_CENTER" displayName="Vertical height rear center"></enumerationValue>
+                                        <enumerationValue val="Vhrl_VERTICAL_HEIGHT_REAR_LEFT" displayName="Vertical height rear left"></enumerationValue>
+                                        <enumerationValue val="Vhrr_VERTICAL_HEIGHT_REAR_RIGHT" displayName="Vertical height rear right"></enumerationValue>
+                                    </valueRestriction>
+                                </valueType>
+                                <propertyRedirect propertyPath="Speaker Position Assigner/channel7_speaker"/>
+                            </propertyDefinition>
+                            <propertyDefinition displayName="Channel 8 Speaker" name="channel8_speaker" group="Speaker Positions" dynamic="true">
+                                <valueType type="STRING">
+                                    <valueRestriction strictEnum="true">
+                                        <enumerationValue val="" displayName="None"></enumerationValue>
+                                        <enumerationValue val="MONO" displayName="Mono"></enumerationValue>
+                                        <enumerationValue val="C_CENTER" displayName="Center"></enumerationValue>
+                                        <enumerationValue val="L_LEFT" displayName="Left"></enumerationValue>
+                                        <enumerationValue val="R_RIGHT" displayName="Right"></enumerationValue>
+                                        <enumerationValue val="Lt_LEFT" displayName="Lt Left"></enumerationValue>
+                                        <enumerationValue val="Rt_RIGHT" displayName="Rt Right"></enumerationValue>
+                                        <enumerationValue val="Cs_CENTER_SURROUND" displayName="Center surround"></enumerationValue>
+                                        <enumerationValue val="Ls_LEFT_SURROUND" displayName="Left surround"></enumerationValue>
+                                        <enumerationValue val="Rs_RIGHT_SURROUND" displayName="Right surround"></enumerationValue>
+                                        <enumerationValue val="LFE_LOW_FREQUENCY" displayName="Low frequency"></enumerationValue>
+                                        <enumerationValue val="Rls_REAR_LEFT_SURROUND" displayName="Rear left surround"></enumerationValue>
+                                        <enumerationValue val="Rrs_REAR_RIGHT_SURROUND" displayName="Rear right surround"></enumerationValue>
+                                        <enumerationValue val="Sls_SIDE_LEFT_SURROUND" displayName="Side left surround"></enumerationValue>
+                                        <enumerationValue val="Srs_SIDE_RIGHT_SURROUND" displayName="Side right surround"></enumerationValue>
+                                        <enumerationValue val="Lc_LEFT_CENTER" displayName="Left center"></enumerationValue>
+                                        <enumerationValue val="Rc_RIGHT_CENTER" displayName="Right center"></enumerationValue>
+                                        <enumerationValue val="Lw_LEFT_WIDE" displayName="Left wide"></enumerationValue>
+                                        <enumerationValue val="Rw_RIGHT_WIDE" displayName="Right wide"></enumerationValue>
+                                        <enumerationValue val="Lsd_LEFT_SURROUND_DIRECTIONAL" displayName="Left surround directional"></enumerationValue>
+                                        <enumerationValue val="Rsd_RIGHT_SURROUND_DIRECTIONAL" displayName="Right surround directional"></enumerationValue>
+                                        <enumerationValue val="LFE2_LOW_FREQUENCY" displayName="Low frequency 2"></enumerationValue>
+                                        <enumerationValue val="Ts_TOP_CENTER_SURROUND" displayName="Top center surround"></enumerationValue>
+                                        <enumerationValue val="Vhc_VERTICAL_HEIGHT_CENTER" displayName="Vertical height center"></enumerationValue>
+                                        <enumerationValue val="Vhl_VERTICAL_HEIGHT_LEFT" displayName="Vertical height left"></enumerationValue>
+                                        <enumerationValue val="Vhr_VERTICAL_HEIGHT_RIGHT" displayName="Vertical height right"></enumerationValue>
+                                        <enumerationValue val="Vhsl_VERTICAL_HEIGHT_SIDE_LEFT" displayName="Vertical height side left"></enumerationValue>
+                                        <enumerationValue val="Vhsr_VERTICAL_HEIGHT_SIDE_RIGHT" displayName="Vertical height side right"></enumerationValue>
+                                        <enumerationValue val="Vhrc_VERTICAL_HEIGHT_REAR_CENTER" displayName="Vertical height rear center"></enumerationValue>
+                                        <enumerationValue val="Vhrl_VERTICAL_HEIGHT_REAR_LEFT" displayName="Vertical height rear left"></enumerationValue>
+                                        <enumerationValue val="Vhrr_VERTICAL_HEIGHT_REAR_RIGHT" displayName="Vertical height rear right"></enumerationValue>
+                                    </valueRestriction>
+                                </valueType>
+                                <propertyRedirect propertyPath="Speaker Position Assigner/channel8_speaker"/>
+                            </propertyDefinition>
+                            <propertyDefinition displayName="Sample Rate" name="sample_rate" dynamic="true">
+                                <valueType type="INTEGER">
+                                    <valueRestriction minValue="8000" maxValue="96000" strictEnum="false">
+                                        <enumerationValue displayName="Pass-through" description="Selecting this value will cause the component to simply pass all input through unchanged"></enumerationValue>
+                                        <enumerationValue val="8000" displayName="8000"></enumerationValue>
+                                        <enumerationValue val="11025" displayName="11025"></enumerationValue>
+                                        <enumerationValue val="12000" displayName="12000"></enumerationValue>
+                                        <enumerationValue val="16000" displayName="16000"></enumerationValue>
+                                        <enumerationValue val="22050" displayName="22050"></enumerationValue>
+                                        <enumerationValue val="24000" displayName="24000"></enumerationValue>
+                                        <enumerationValue val="32000" displayName="32000"></enumerationValue>
+                                        <enumerationValue val="44100" displayName="44100"></enumerationValue>
+                                        <enumerationValue val="48000" displayName="48000"></enumerationValue>
+                                        <enumerationValue val="88200" displayName="88200"></enumerationValue>
+                                        <enumerationValue val="96000" displayName="96000"></enumerationValue>
+                                    </valueRestriction>
+                                </valueType>
+                                <propertyRedirect propertyPath="Audio Sample Rate Updater/sample_rate"/>
+                            </propertyDefinition>
+                            <propertyDefinition hidden="true" name="override_sample_rate_mirror" dynamic="true"/>
+                            <propertyDefinition hidden="true" name="sample_rate_mirror" dynamic="true"/>
+                            <propertyDefinition hidden="true" name="override_language_code_mirror" dynamic="true"/>
+                            <propertyDefinition hidden="true" name="language_code_mirror" dynamic="true"/>
+                            <propertyDefinition hidden="true" name="override_mode_mirror" dynamic="true"/>
+                            <propertyDefinition hidden="true" name="encoder_preset_filter_mirror" dynamic="true"/>
+                            <propertyDefinition hidden="true" name="channel_position_preset_mirror" dynamic="true"/>
+                            <propertyDefinition hidden="true" name="channel1_speaker_mirror" dynamic="true"/>
+                            <propertyDefinition hidden="true" name="channel2_speaker_mirror" dynamic="true"/>
+                            <propertyDefinition hidden="true" name="channel3_speaker_mirror" dynamic="true"/>
+                            <propertyDefinition hidden="true" name="channel4_speaker_mirror" dynamic="true"/>
+                            <propertyDefinition hidden="true" name="channel5_speaker_mirror" dynamic="true"/>
+                            <propertyDefinition hidden="true" name="channel6_speaker_mirror" dynamic="true"/>
+                            <propertyDefinition hidden="true" name="channel7_speaker_mirror" dynamic="true"/>
+                            <propertyDefinition hidden="true" name="channel8_speaker_mirror" dynamic="true"/>
+                            <propertyDefinition hidden="true" name="_graphDisplayLocation" dynamic="true"/>
+                            <propertyDefinition hidden="true" name="_graphDisplayContents" dynamic="true"/>
+                            <propertyDefinition hidden="true" name="_graphMinDisplaySize" dynamic="true"/>
+                            <property name="_graphDisplayContents">false</property>
+                            <property name="_graphDisplayLocation">315.794921875,0.0</property>
+                            <property name="_graphMinDisplaySize" isNull="true"/>
+                            <property name="accuracy_bits_per_sample">24</property>
+                            <property name="acquireChildLicenses" isNull="true"/>
+                            <property name="average_bit_rate" isNull="true"/>
+                            <property name="bits_per_sample">24</property>
+                            <property name="channel1_speaker">L_LEFT</property>
+                            <property name="channel1_speaker_mirror">L_LEFT</property>
+                            <property name="channel2_speaker">R_RIGHT</property>
+                            <property name="channel2_speaker_mirror">R_RIGHT</property>
+                            <property name="channel3_speaker">C_CENTER</property>
+                            <property name="channel3_speaker_mirror">C_CENTER</property>
+                            <property name="channel4_speaker">LFE_LOW_FREQUENCY</property>
+                            <property name="channel4_speaker_mirror">LFE_LOW_FREQUENCY</property>
+                            <property name="channel5_speaker">Ls_LEFT_SURROUND</property>
+                            <property name="channel5_speaker_mirror">Ls_LEFT_SURROUND</property>
+                            <property name="channel6_speaker">Rs_RIGHT_SURROUND</property>
+                            <property name="channel6_speaker_mirror">Rs_RIGHT_SURROUND</property>
+                            <property name="channel7_speaker"></property>
+                            <property name="channel7_speaker_mirror"></property>
+                            <property name="channel8_speaker"></property>
+                            <property name="channel8_speaker_mirror"></property>
+                            <property name="channel_position_preset">L_R_C_LFE_Ls_Rs</property>
+                            <property name="channel_position_preset_mirror">L_R_C_LFE_Ls_Rs</property>
+                            <property name="defaultInputPin">in</property>
+                            <property name="defaultOutputPin">out</property>
+                            <property name="encoder_preset_filter">WAVE</property>
+                            <property name="encoder_preset_filter_mirror">WAVE</property>
+                            <property name="ignoreChildComponentErrors" isNull="true"/>
+                            <property name="ignoreParentGraphState" isNull="true"/>
+                            <property name="language_code">fr</property>
+                            <property name="language_code_mirror">fr</property>
+                            <property name="logsMaxEntries" isNull="true"/>
+                            <property name="maximum_bit_rate" isNull="true"/>
+                            <property name="num_active_channels" isNull="true"/>
+                            <property name="num_channels" isNull="true"/>
+                            <property name="out_endian" isNull="true"/>
+                            <property name="override_input">FALSE</property>
+                            <property name="override_language_code_mirror" isNull="true"/>
+                            <property name="override_mode_mirror" isNull="true"/>
+                            <property name="override_sample_rate_mirror" isNull="true"/>
+                            <property name="rate_control" isNull="true"/>
+                            <property name="sample_rate">48000</property>
+                            <property name="sample_rate_mirror">48000</property>
+                            <property name="sample_signed" isNull="true"/>
+                            <property name="storage_bits_per_sample">24</property>
+                            <componentName>Audio Data Type Updater</componentName>
+                            <componentDefinitionName>Audio Data Type Updater</componentDefinitionName>
+                            <componentDefinitionGuid>9D095BEC-5A2C-445e-9AF9-A17313693263</componentDefinitionGuid>
+                            <componentOwningPluginName>AudioFormatUtilities</componentOwningPluginName>
+                            <componentOwningPluginId>ca.digitalrapids.AudioFormatUtilities</componentOwningPluginId>
+                            <childComponents/>
+                            <pin name="in" type="INPUT_IO"/>
+                            <pin name="out" type="OUTPUT_IO"/>
+                        </component>
+                        <component>
+                            <property name="5_1_to_stereo" isNull="true"/>
+                            <property name="_graphDisplayContents">false</property>
+                            <property name="_graphDisplayLocation">942.658203125,0.0</property>
+                            <property name="_graphMinDisplaySize">500.0,400.0</property>
+                            <property name="acquireChildLicenses" isNull="true"/>
+                            <property name="attenuation3db">false</property>
+                            <property name="bitstreamformat">ADTSMP4</property>
+                            <property name="center_gain_db">-3.0</property>
+                            <property name="channel_position_preset">L_R</property>
+                            <property name="copyright">true</property>
+                            <property name="datarate">48000</property>
+                            <property name="defaultInputPin">audio</property>
+                            <property name="defaultOutputPin">out</property>
+                            <property name="dialoguenormalization">-27</property>
+                            <property name="downmix_to_mono">false</property>
+                            <property name="downmixstyle">Disabled</property>
+                            <property name="drclinemode">COMPPROF_FILMSTD</property>
+                            <property name="drcrfmode">COMPPROF_FILMSTD</property>
+                            <property name="dsurrmode">DSM_NOTINDICATED</property>
+                            <property name="encodemode">DP_HE_AAC</property>
+                            <property name="ignoreChildComponentErrors" isNull="true"/>
+                            <property name="ignoreParentGraphState" isNull="true"/>
+                            <property name="left_gain_db">0.0</property>
+                            <property name="lfe_gain_db">-12.0</property>
+                            <property name="logsMaxEntries" isNull="true"/>
+                            <property name="lorocmix">-3 dB</property>
+                            <property name="lorosmix">-3 dB</property>
+                            <property name="lowpassfilterlfe">true</property>
+                            <property name="ltrtcmix">-3 dB</property>
+                            <property name="ltrtsmix">-3 dB</property>
+                            <property name="originalbitstream">true</property>
+                            <property name="output_bits_per_sample">16</property>
+                            <property name="output_sample_rate">44100</property>
+                            <property name="phaseshift90">true</property>
+                            <property name="prefsterdmix">Lt/Rt downmix preferred</property>
+                            <property name="removepce">false</property>
+                            <property name="right_gain_db">0.0</property>
+                            <property name="signallingmode">SBR_BC</property>
+                            <property name="surround_gain_db">-3.0</property>
+                            <property name="usePSv2">false</property>
+                            <componentName>AAC Encoder (Dolby)</componentName>
+                            <componentDefinitionName>AAC Encoder - Dolby Pulse</componentDefinitionName>
+                            <componentDefinitionGuid>D0933A55-4818-4ADC-9301-8BE7687AC9E3</componentDefinitionGuid>
+                            <componentOwningPluginName>DolbyPulseEncoder</componentOwningPluginName>
+                            <componentOwningPluginId>ca.digitalrapids.DolbyPulseEncoder</componentOwningPluginId>
+                            <childComponents/>
+                            <pin name="audio" type="INPUT_IO"/>
+                            <pin name="out" type="OUTPUT_IO"/>
+                        </component>
+                    </childComponents>
+                    <pin name="in 1" type="INPUT_IO">
+                        <propertyDefinition hidden="true" name="_graphDisplayLocation" dynamic="true"/>
+                        <property name="_graphDisplayLocation">803.0,375.0</property>
+                        <pinDefinition name="in 1" displayName="Uncompressed Audio 1" type="INPUT_IO" dynamic="true"/>
+                    </pin>
+                    <pin name="in 2" type="INPUT_IO">
+                        <propertyDefinition hidden="true" name="_graphDisplayLocation" dynamic="true"/>
+                        <property name="_graphDisplayLocation">803.0,375.0</property>
+                        <pinDefinition name="in 2" displayName="Uncompressed Audio 2" type="INPUT_IO" dynamic="true"/>
+                    </pin>
+                    <pin name="in 3" type="INPUT_IO">
+                        <propertyDefinition hidden="true" name="_graphDisplayLocation" dynamic="true"/>
+                        <property name="_graphDisplayLocation">803.0,375.0</property>
+                        <pinDefinition name="in 3" displayName="Uncompressed Audio 3" type="INPUT_IO" dynamic="true"/>
+                    </pin>
+                    <pin name="in 4" type="INPUT_IO">
+                        <propertyDefinition hidden="true" name="_graphDisplayLocation" dynamic="true"/>
+                        <property name="_graphDisplayLocation">803.0,375.0</property>
+                        <pinDefinition name="in 4" displayName="Uncompressed Audio 4" type="INPUT_IO" dynamic="true"/>
+                    </pin>
+                    <pin name="in 5" type="INPUT_IO">
+                        <propertyDefinition hidden="true" name="_graphDisplayLocation" dynamic="true"/>
+                        <property name="_graphDisplayLocation">803.0,375.0</property>
+                        <pinDefinition name="in 5" displayName="Uncompressed Audio 5" type="INPUT_IO" dynamic="true"/>
+                    </pin>
+                    <pin name="in 6" type="INPUT_IO">
+                        <propertyDefinition hidden="true" name="_graphDisplayLocation" dynamic="true"/>
+                        <property name="_graphDisplayLocation">803.0,375.0</property>
+                        <pinDefinition name="in 6" displayName="Uncompressed Audio 6" type="INPUT_IO" dynamic="true"/>
+                    </pin>
+                    <pin name="out" type="OUTPUT_IO">
+                        <propertyDefinition hidden="true" name="_graphDisplayLocation" dynamic="true"/>
+                        <property name="_graphDisplayLocation">1208.8590087890625,87.87722778320312</property>
+                        <pinDefinition name="out" displayName="Compressed Audio (AAC)" type="OUTPUT_IO" dynamic="true"/>
+                    </pin>
+                </component>
+                <component>
+                    <propertyDefinition hidden="true" name="_graphDisplayLocation" dynamic="true"/>
+                    <propertyDefinition hidden="true" name="_graphDisplayContents" dynamic="true"/>
+                    <propertyDefinition hidden="true" name="_graphMinDisplaySize" dynamic="true"/>
+                    <property name="ChunkDuration">1000</property>
+                    <property name="ChunkMode">GOP count or duration</property>
+                    <property name="FragmentDuration">3000</property>
+                    <property name="Fragmentation">false</property>
+                    <property name="NbGopsPerChunk">1</property>
+                    <property name="ProgressiveDownload">false</property>
+                    <property name="_graphDisplayContents">false</property>
+                    <property name="_graphDisplayLocation">1315.54541015625,94.85934448242188</property>
+                    <property name="_graphMinDisplaySize" isNull="true"/>
+                    <property name="acquireChildLicenses" isNull="true"/>
+                    <property name="defaultInputPin" isNull="true"/>
+                    <property name="defaultOutputPin">mp4</property>
+                    <property name="drc_iso_file_format">MPEG4</property>
+                    <property name="ignoreChildComponentErrors" isNull="true"/>
+                    <property name="ignoreParentGraphState" isNull="true"/>
+                    <property name="logsMaxEntries" isNull="true"/>
+                    <componentName>ISO MPEG-4 Multiplexer</componentName>
+                    <componentDefinitionName>Advanced ISO MPEG4 Multiplexer</componentDefinitionName>
+                    <componentDefinitionGuid>E25468C3-A65C-4f1a-8172-E72CE4B63A70</componentDefinitionGuid>
+                    <componentOwningPluginName>MPEG4Muxer</componentOwningPluginName>
+                    <componentOwningPluginId>ca.digitalrapids.MPEG4Muxer</componentOwningPluginId>
+                    <childComponents/>
+                    <pin name="mp4" type="OUTPUT_IO"/>
+                    <pin name="Track 1" type="INPUT_IO">
+                        <pinDefinition name="Track 1" type="INPUT_IO" dynamic="true"/>
+                    </pin>
+                    <pin name="Track 2" type="INPUT_IO">
+                        <pinDefinition name="Track 2" type="INPUT_IO" dynamic="true"/>
+                    </pin>
+                    <pin name="Track 3" type="INPUT_IO">
+                        <pinDefinition name="Track 3" type="INPUT_IO" dynamic="true"/>
+                    </pin>
+                </component>
+                <component>
+                    <propertyDefinition displayName="Target Video Format" name="video_format" group="General" dynamic="true">
+                        <initialValue>Same as Input(1tc/frame)</initialValue>
+                        <valueType type="STRING">
+                            <valueRestriction strictEnum="true">
+                                <enumerationValue val="23.98i(1tc/frame)" displayName="23.98 fps (inserted per frame)"></enumerationValue>
+                                <enumerationValue val="23.98i(1tc/field)" displayName="23.98 fps (inserted per field)"></enumerationValue>
+                                <enumerationValue val="24i(1tc/frame)" displayName="24 fps (inserted per frame)"></enumerationValue>
+                                <enumerationValue val="24i(1tc/field)" displayName="24 fps (inserted per field)"></enumerationValue>
+                                <enumerationValue val="25i(1tc/frame)" displayName="25 fps (inserted per frame)"></enumerationValue>
+                                <enumerationValue val="25i(1tc/field)" displayName="25 fps (inserted per field)"></enumerationValue>
+                                <enumerationValue val="29.97i(1tc/frame)" displayName="29.97 fps (inserted per frame)"></enumerationValue>
+                                <enumerationValue val="29.97i(1tc/field)" displayName="29.97 fps (inserted per field)"></enumerationValue>
+                                <enumerationValue val="30i(1tc/frame)" displayName="30 fps (inserted per frame)"></enumerationValue>
+                                <enumerationValue val="30i(1tc/field)" displayName="30 fps (inserted per field)"></enumerationValue>
+                                <enumerationValue val="50p" displayName="50 fps (inserted per frame)"></enumerationValue>
+                                <enumerationValue val="59.94p" displayName="59.94 fps (inserted per frame)"></enumerationValue>
+                                <enumerationValue val="60p" displayName="60 fps (inserted per frame)"></enumerationValue>
+                                <enumerationValue val="Same as Input(1tc/frame)" displayName="Input (inserted per frame)"></enumerationValue>
+                                <enumerationValue val="Same as Input(1tc/field)" displayName="Input (inserted per field)"></enumerationValue>
+                            </valueRestriction>
+                        </valueType>
+                    </propertyDefinition>
+                    <propertyDefinition displayName="Timecode Setting" name="start_timecode" group="General" dynamic="true">
+                        <initialValue>00:00:00:00/30</initialValue>
+                        <valueType type="TIMECODE"/>
+                    </propertyDefinition>
+                    <property name="Aspect Ratio" isNull="true"/>
+                    <property name="Frame Rate" isNull="true"/>
+                    <property name="General.extended_sar" isNull="true"/>
+                    <property name="General.sar" isNull="true"/>
+                    <property name="Timecode">none</property>
+                    <property name="_graphDisplayContents">false</property>
+                    <property name="_graphDisplayLocation">885.49755859375,95.51138305664062</property>
+                    <property name="_graphMinDisplaySize">1052.0,214.0</property>
+                    <property name="acquireChildLicenses" isNull="true"/>
+                    <property name="adv.custom_frame_rate_timescale">240000</property>
+                    <property name="adv.direct_mode">0</property>
+                    <property name="adv.enable_custom_frame_rate_timescale">false</property>
+                    <property name="adv.intra_precision">2</property>
+                    <property name="adv.mbaff_scan_type">1</property>
+                    <property name="adv.ps3_mode">0</property>
+                    <property name="adv.qt_mode">0</property>
+                    <property name="adv.transform_8x8">0</property>
+                    <property name="adv.weighted_pred_flag">1</property>
+                    <property name="alternateJava" isNull="true"/>
+                    <property name="cadenceReEntryMode">0</property>
+                    <property name="defaultInputPin">Video</property>
+                    <property name="defaultOutputPin">out</property>
+                    <property name="detect2224Cadence">true</property>
+                    <property name="detect22Cadence">true</property>
+                    <property name="detect2332Cadence">true</property>
+                    <property name="detect32322Cadence">true</property>
+                    <property name="detect32Cadence">true</property>
+                    <property name="detect55Cadence">true</property>
+                    <property name="detect64Cadence">true</property>
+                    <property name="detect87Cadence">true</property>
+                    <property name="dominance">pass_through</property>
+                    <property name="edge_smoothing" isNull="true"/>
+                    <property name="filterControl">0</property>
+                    <property name="filterType">0</property>
+                    <property name="gen.enable_3d_encoding">false</property>
+                    <property name="gen.level_idc">41</property>
+                    <property name="gen.mbaff_mode">false</property>
+                    <property name="gen.profile_idc">100</property>
+                    <property name="gen.speed">0</property>
+                    <property name="gen.sym_mode">1</property>
+                    <property name="gop.adaptive_bframes">true</property>
+                    <property name="gop.bframes">3</property>
+                    <property name="gop.duration">2</property>
+                    <property name="gop.idr_control">1</property>
+                    <property name="gop.idr_period">2</property>
+                    <property name="gop.min_intra_period">2</property>
+                    <property name="gop.mode">0</property>
+                    <property name="ignoreChildComponentErrors" isNull="true"/>
+                    <property name="ignoreParentGraphState" isNull="true"/>
+                    <property name="interpolation">CUBIC2P_BSPLINE</property>
+                    <property name="javaSelector" isNull="true"/>
+                    <property name="latency">30</property>
+                    <property name="logsMaxEntries" isNull="true"/>
+                    <property name="me.max_refs">2</property>
+                    <property name="me.search_range">-64</property>
+                    <property name="me.subdiv">7</property>
+                    <property name="mt.max_pict_tasks">-1</property>
+                    <property name="mt.mode">2</property>
+                    <property name="mt.num_threads">8</property>
+                    <property name="noiseTolerance">0</property>
+                    <property name="oopLaunchTimeoutSeconds" isNull="true"/>
+                    <property name="outputFrameRate">matchInputFieldRate</property>
+                    <property name="output_height" isNull="true"/>
+                    <property name="output_width" isNull="true"/>
+                    <property name="pluginOptions" isNull="true"/>
+                    <property name="preset">yuyv</property>
+                    <property name="pulldown_mode">2:3TFF</property>
+                    <property name="rc.auto_qp">true</property>
+                    <property name="rc.initial_cpb_removal_delay">-1</property>
+                    <property name="rc.kbps">6000</property>
+                    <property name="rc.max_intra_frame_bytes">0</property>
+                    <property name="rc.max_kbps">0</property>
+                    <property name="rc.min_intra_frame_bytes">0</property>
+                    <property name="rc.qp_delta_b">4</property>
+                    <property name="rc.qp_delta_p">2</property>
+                    <property name="rc.qp_intra">30</property>
+                    <property name="rc.qp_max">51</property>
+                    <property name="rc.qp_min">8</property>
+                    <property name="rc.scene_detect">35</property>
+                    <property name="rc.type">2</property>
+                    <property name="rc.unrestricted_iframepicsize">0</property>
+                    <property name="rc.vbv_length">1000</property>
+                    <property name="runOutOfProcess">true</property>
+                    <property name="sei.pic_timing_flag">1</property>
+                    <property name="sei.split_sei_payload">0</property>
+                    <property name="shift">shift_up</property>
+                    <property name="showOutOfProcessGUI" isNull="true"/>
+                    <property name="slice.deblock">1</property>
+                    <property name="slice.mode">0</property>
+                    <property name="slice.param">1</property>
+                    <property name="start_timecode">00:00:00:00/25</property>
+                    <property name="threads">8</property>
+                    <property name="verticalBandwidthControl">1</property>
+                    <property name="video_format">Same as Input(1tc/field)</property>
+                    <property name="vui.bitstream_restriction_flag">false</property>
+                    <property name="vui.colour_description_present_flag">false</property>
+                    <property name="vui.colour_primaries">2</property>
+                    <property name="vui.matrix_coeffients">2</property>
+                    <property name="vui.max_bytes_per_pic_denom">false</property>
+                    <property name="vui.nal_hrd_parameters_present_flag">false</property>
+                    <property name="vui.pic_struct_present_flag">true</property>
+                    <property name="vui.timing_info_present_flag">false</property>
+                    <property name="vui.transfer_characteristics">2</property>
+                    <property name="vui.vcl_hrd_parameters_present_flag">false</property>
+                    <property name="vui.video_format">2</property>
+                    <property name="vui.video_signal_type_present_flag">true</property>
+                    <componentName>AVC_1080p_6Mbps_L4.1_HP_CABAC</componentName>
+                    <componentDefinitionName>Advanced AVC Encoder</componentDefinitionName>
+                    <componentDefinitionGuid>A3597472-D51E-44d9-9F0A-395744A83FA3</componentDefinitionGuid>
+                    <componentOwningPluginName>DRAVCEncoder</componentOwningPluginName>
+                    <componentOwningPluginId>ca.digitalrapids.DRAVCEncoder</componentOwningPluginId>
+                    <childComponents/>
+                    <pin name="Video" type="INPUT_IO"/>
+                    <pin name="out" type="OUTPUT_IO"/>
+                    <pin name="Timecode (SEI)" type="INPUT_IO"/>
+                    <pin name="EIA-608 Captions" type="INPUT_IO"/>
+                    <pin name="EIA-708 Captions" type="INPUT_IO">
+                        <propertyDefinition hidden="true" name="_graphDisplayLocation" dynamic="true"/>
+                        <property name="_graphDisplayLocation">-61,102</property>
+                    </pin>
+                    <pin name="User Data" type="INPUT_IO">
+                        <propertyDefinition hidden="true" name="_graphDisplayLocation" dynamic="true"/>
+                        <property name="_graphDisplayLocation">-57,133</property>
+                    </pin>
+                </component>
+                <component>
+                    <property name="_graphDisplayContents">false</property>
+                    <property name="_graphDisplayLocation">1688.237548828125,93.6387939453125</property>
+                    <property name="_graphMinDisplaySize">500.0,400.0</property>
+                    <property name="acquireChildLicenses" isNull="true"/>
+                    <property name="defaultInputPin" isNull="true"/>
+                    <property name="defaultOutputPin" isNull="true"/>
+                    <property name="filename" marshallerKey="Evaluation">Expression
+&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;
+&lt;expressionInfo&gt;
+    &lt;propertyBinding variable="ROOT_outputWriteDirectory" path="../../outputWriteDirectory"/&gt;
+    &lt;propertyBinding variable="ROOT_sourceFileBaseName" path="../../sourceFileBaseName"/&gt;
+    &lt;scriptString&gt;"${ROOT_outputWriteDirectory}\\${ROOT_sourceFileBaseName}_1080p.mp4"&lt;/scriptString&gt;
+    &lt;string&gt;
+        &lt;constant value="${ROOT_outputWriteDirectory}\\${ROOT_sourceFileBaseName}_1080p.mp4"/&gt;
+    &lt;/string&gt;
+&lt;/expressionInfo&gt;
+</property>
+                    <property name="ignoreChildComponentErrors" isNull="true"/>
+                    <property name="ignoreParentGraphState" isNull="true"/>
+                    <property name="logsMaxEntries" isNull="true"/>
+                    <property name="manual_input">true</property>
+                    <componentName>File Output</componentName>
+                    <componentDefinitionName>File Output</componentDefinitionName>
+                    <componentDefinitionGuid>9b376163-de8d-4e09-8bed-353725b6b6d6</componentDefinitionGuid>
+                    <componentOwningPluginName>CommonComponents</componentOwningPluginName>
+                    <componentOwningPluginId>ca.digitalrapids.CommonComponents</componentOwningPluginId>
+                    <childComponents/>
+                    <pin name="write" type="INPUT_IO"/>
+                    <pin name="filename" type="INPUT_IO"/>
+                    <pin name="writeComplete" type="OUTPUT_IO"/>
+                </component>
+                <component>
+                    <propertyDefinition hidden="true" name="_graphDisplayLocation" dynamic="true"/>
+                    <propertyDefinition hidden="true" name="_graphDisplayContents" dynamic="true"/>
+                    <propertyDefinition hidden="false" displayName="Play List Name" name="Playlist 1.playlist_name" description="Play List Name" group="Playlist 1" dynamic="true">
+                        <valueType type="STRING"/>
+                    </propertyDefinition>
+                    <propertyDefinition hidden="false" displayName="Play List Path" name="Playlist 1.playlist_path" description="Play List Path" group="Playlist 1" dynamic="true">
+                        <valueType type="STRING"/>
+                    </propertyDefinition>
+                    <propertyDefinition hidden="false" displayName="Play List Retrieval Path" name="Playlist 1.playlist_retrieval_path" description="Play List Retrieval Path" group="Playlist 1" dynamic="true">
+                        <valueType type="STRING"/>
+                    </propertyDefinition>
+                    <propertyDefinition hidden="false" displayName="Play List Name" name="Playlist 2.playlist_name" description="Play List Name" group="Playlist 2" dynamic="true">
+                        <valueType type="STRING"/>
+                    </propertyDefinition>
+                    <propertyDefinition hidden="false" displayName="Play List Path" name="Playlist 2.playlist_path" description="Play List Path" group="Playlist 2" dynamic="true">
+                        <valueType type="STRING"/>
+                    </propertyDefinition>
+                    <propertyDefinition hidden="false" displayName="Play List Retrieval Path" name="Playlist 2.playlist_retrieval_path" description="Play List Retrieval Path" group="Playlist 2" dynamic="true">
+                        <valueType type="STRING"/>
+                    </propertyDefinition>
+                    <property name="Playlist 1.playlist_name">SMILfile</property>
+                    <property name="Playlist 1.playlist_path" isNull="true"/>
+                    <property name="Playlist 1.playlist_retrieval_path" isNull="true"/>
+                    <property name="Playlist 2.playlist_name" isNull="true"/>
+                    <property name="Playlist 2.playlist_path" isNull="true"/>
+                    <property name="Playlist 2.playlist_retrieval_path" isNull="true"/>
+                    <property name="_graphDisplayContents" isNull="true"/>
+                    <property name="_graphDisplayLocation">2075.0625,162.30516052246094</property>
+                    <property name="base_path" marshallerKey="Evaluation">Expression
+&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;
+&lt;expressionInfo&gt;
+    &lt;propertyBinding variable="ROOT_outputWriteDirectory" path="../outputWriteDirectory"/&gt;
+    &lt;scriptString&gt;"${ROOT_outputWriteDirectory}\\"&lt;/scriptString&gt;
+    &lt;string&gt;
+        &lt;constant value="${ROOT_outputWriteDirectory}\\"/&gt;
+    &lt;/string&gt;
+&lt;/expressionInfo&gt;
+</property>
+                    <property name="base_retrieval_path" isNull="true"/>
+                    <property name="defaultInputPin" isNull="true"/>
+                    <property name="defaultOutputPin" isNull="true"/>
+                    <property name="enable_authentication">false</property>
+                    <property name="logsMaxEntries" isNull="true"/>
+                    <property name="mode">live</property>
+                    <property name="password" isNull="true"/>
+                    <property name="playlist 0.playlist_name" isNull="true"/>
+                    <property name="playlist 0.playlist_path" isNull="true"/>
+                    <property name="playlist 0.playlist_retrieval_path" isNull="true"/>
+                    <property name="query_salt" isNull="true"/>
+                    <property name="query_value" isNull="true"/>
+                    <property name="segments_before_playback">3</property>
+                    <property name="server_type">local_network</property>
+                    <property name="target_duration">10</property>
+                    <property name="upload_using">put</property>
+                    <property name="user_name" isNull="true"/>
+                    <componentName>SMIL Playlists Writer</componentName>
+                    <componentDefinitionName>SMIL Playlists Writer</componentDefinitionName>
+                    <componentDefinitionGuid>BC11DDED-63C0-4488-A7DB-309322189918</componentDefinitionGuid>
+                    <componentOwningPluginName>SMILUtilities</componentOwningPluginName>
+                    <componentOwningPluginId>ca.digitalrapids.SMILUtilities</componentOwningPluginId>
+                    <childComponents/>
+                    <pin name="writeComplete" type="EVENT"/>
+                    <pin name="out" type="EVENT"/>
+                    <pin name="Playlist 1" type="INPUT_PUSH">
+                        <pinDefinition name="Playlist 1" type="INPUT_PUSH" dynamic="true"/>
+                    </pin>
+                    <pin name="Playlist 2" type="INPUT_PUSH">
+                        <pinDefinition name="Playlist 2" type="INPUT_PUSH" dynamic="true"/>
+                    </pin>
+                </component>
+                <component>
+                    <propertyDefinition hidden="true" name="_graphDisplayLocation" dynamic="true"/>
+                    <propertyDefinition hidden="true" name="_graphDisplayContents" dynamic="true"/>
+                    <property name="_graphDisplayContents" isNull="true"/>
+                    <property name="_graphDisplayLocation">464.62542724609375,168.0</property>
+                    <property name="bits_per_sample">8</property>
+                    <property name="defaultInputPin">in</property>
+                    <property name="defaultOutputPin">out</property>
+                    <property name="endian">little</property>
+                    <property name="logsMaxEntries" isNull="true"/>
+                    <property name="pixel_sampling">422</property>
+                    <property name="plane_alignment">1</property>
+                    <property name="preset">custom</property>
+                    <property name="raster_orientation">top_down</property>
+                    <property name="sample_layout_details">yuv</property>
+                    <property name="sample_layout_strategy">planar</property>
+                    <property name="scanline_alignment">1</property>
+                    <property name="storage_bits_per_sample">8</property>
+                    <componentName>Color Space Converter - Intel</componentName>
+                    <componentDefinitionName>Color Space Converter - Intel</componentDefinitionName>
+                    <componentDefinitionGuid>2FDE07E0-7DBF-47e2-BC73-91F3B82D4392</componentDefinitionGuid>
+                    <componentOwningPluginName>VideoFormatUtilities</componentOwningPluginName>
+                    <componentOwningPluginId>ca.digitalrapids.VideoFormatUtilities</componentOwningPluginId>
+                    <childComponents/>
+                    <pin name="in" type="INPUT_PUSH"/>
+                    <pin name="out" type="OUTPUT_PUSH"/>
+                </component>
+                <component>
+                    <propertyDefinition hidden="true" name="_graphDisplayLocation" dynamic="true"/>
+                    <propertyDefinition hidden="true" name="_graphDisplayContents" dynamic="true"/>
+                    <propertyDefinition hidden="true" name="_graphMinDisplaySize" dynamic="true"/>
+                    <property name="_graphDisplayContents">false</property>
+                    <property name="_graphDisplayLocation">509.33001708984375,325.6158142089844</property>
+                    <property name="_graphMinDisplaySize">1067.846923828125,608.0</property>
+                    <property name="acquireChildLicenses" isNull="true"/>
+                    <property name="defaultInputPin" isNull="true"/>
+                    <property name="defaultOutputPin" isNull="true"/>
+                    <property name="ignoreChildComponentErrors" isNull="true"/>
+                    <property name="ignoreParentGraphState" isNull="true"/>
+                    <property name="logsMaxEntries" isNull="true"/>
+                    <componentName>Mobile Scaler</componentName>
+                    <componentDefinitionName>Kayak Graph</componentDefinitionName>
+                    <componentDefinitionGuid>abc785f2-427e-4522-ba00-f3cb6acd1220</componentDefinitionGuid>
+                    <componentOwningPluginName>KayakCore</componentOwningPluginName>
+                    <componentOwningPluginId>ca.digitalrapids.KayakCore</componentOwningPluginId>
+                    <childComponents>
+                        <component>
+                            <propertyDefinition hidden="true" name="_graphDisplayLocation" dynamic="true"/>
+                            <propertyDefinition hidden="true" name="_graphDisplayContents" dynamic="true"/>
+                            <property name="_graphDisplayContents" isNull="true"/>
+                            <property name="_graphDisplayLocation">30.0,10.0</property>
+                            <property name="cadenceReEntryMode">0</property>
+                            <property name="defaultInputPin">in</property>
+                            <property name="defaultOutputPin">out</property>
+                            <property name="detect2224Cadence">true</property>
+                            <property name="detect22Cadence">true</property>
+                            <property name="detect2332Cadence">true</property>
+                            <property name="detect32322Cadence">true</property>
+                            <property name="detect32Cadence">true</property>
+                            <property name="detect55Cadence">true</property>
+                            <property name="detect64Cadence">true</property>
+                            <property name="detect87Cadence">true</property>
+                            <property name="latency">40</property>
+                            <property name="logsMaxEntries" isNull="true"/>
+                            <property name="m2LowNoiseModeFactor">1</property>
+                            <property name="noiseTolerance">0</property>
+                            <property name="outputFrameRate">matchInputFrameRate</property>
+                            <property name="remainIn2224Cadence">false</property>
+                            <property name="remainIn22Cadence">false</property>
+                            <property name="remainIn2332Cadence">false</property>
+                            <property name="remainIn32322Cadence">false</property>
+                            <property name="remainIn32Cadence">false</property>
+                            <property name="remainIn55Cadence">false</property>
+                            <property name="remainIn64Cadence">false</property>
+                            <property name="remainIn87Cadence">false</property>
+                            <property name="threads">1</property>
+                            <componentName>Digital Rapids De-interlacer</componentName>
+                            <componentDefinitionName>DRDeinterlacer</componentDefinitionName>
+                            <componentDefinitionGuid>750D51F3-FC19-410f-89AB-B7F3E8CAFEDC</componentDefinitionGuid>
+                            <componentOwningPluginName>DRDeinterlacer</componentOwningPluginName>
+                            <componentOwningPluginId>ca.digitalrapids.DRDeinterlacer</componentOwningPluginId>
+                            <childComponents/>
+                            <pin name="in" type="INPUT_PUSH"/>
+                            <pin name="out" type="OUTPUT_PUSH"/>
+                        </component>
+                        <component>
+                            <propertyDefinition hidden="true" name="_graphDisplayLocation" dynamic="true"/>
+                            <propertyDefinition hidden="true" name="_graphDisplayContents" dynamic="true"/>
+                            <propertyDefinition hidden="true" name="_graphMinDisplaySize" dynamic="true"/>
+                            <propertyDefinition displayName="Proto Data Type" name="VIDEO_IN" group="Published" dynamic="true">
+                                <propertyRedirect propertyPath="in/pinProtoDataType"/>
+                            </propertyDefinition>
+                            <property name="_edge_smoothing_" isNull="true"/>
+                            <property name="_graphDisplayContents">false</property>
+                            <property name="_graphDisplayLocation">382.1468505859375,10.14678955078125</property>
+                            <property name="_graphMinDisplaySize" isNull="true"/>
+                            <property name="_interpolation_">SUPER</property>
+                            <property name="_is_client_">false</property>
+                            <property name="_mode_" isNull="true"/>
+                            <property name="_output_height_">1080</property>
+                            <property name="_output_width_" marshallerKey="Evaluation">ScriptWithProperties
+&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;
+&lt;scriptInfo&gt;
+    &lt;propertyBinding variable="VIDEO_IN" path="../VIDEO_IN"/&gt;
+    &lt;propertyBinding variable="output_height" path="output_height"/&gt;
+    &lt;scriptString&gt;if (VIDEO_IN == null || output_height == null || VIDEO_IN.get("image_width") == null || VIDEO_IN.get("image_height") == null) return null;
+int width = VIDEO_IN.get("image_width") / VIDEO_IN.get("image_height") * output_height;
+return width + width % 2;&lt;/scriptString&gt;
+&lt;/scriptInfo&gt;
+</property>
+                            <property name="_scale_height_">1.0</property>
+                            <property name="_scale_width_">1.0</property>
+                            <property name="_threads_per_frame_">2</property>
+                            <property name="_use_pixels_">true</property>
+                            <property name="acquireChildLicenses" isNull="true"/>
+                            <property name="defaultInputPin">in</property>
+                            <property name="defaultOutputPin">out</property>
+                            <property name="edge_smoothing" isNull="true"/>
+                            <property name="ignoreChildComponentErrors" isNull="true"/>
+                            <property name="ignoreParentGraphState" isNull="true"/>
+                            <property name="interpolation">SUPER</property>
+                            <property name="is_client">false</property>
+                            <property name="logsMaxEntries" isNull="true"/>
+                            <property name="mode" isNull="true"/>
+                            <property name="output_height">1080</property>
+                            <property name="output_width" marshallerKey="Evaluation">ScriptWithProperties
+&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;
+&lt;scriptInfo&gt;
+    &lt;propertyBinding variable="VIDEO_IN" path="../VIDEO_IN"/&gt;
+    &lt;propertyBinding variable="output_height" path="output_height"/&gt;
+    &lt;scriptString&gt;if (VIDEO_IN == null || output_height == null || VIDEO_IN.get("image_width") == null || VIDEO_IN.get("image_height") == null) return null;
+int width = VIDEO_IN.get("image_width") / VIDEO_IN.get("image_height") * output_height;
+return width + width % 2;&lt;/scriptString&gt;
+&lt;/scriptInfo&gt;
+</property>
+                            <property name="scale_height">1.0</property>
+                            <property name="scale_width">1.0</property>
+                            <property name="threads_per_frame">2</property>
+                            <componentName>Scale to 1080</componentName>
+                            <componentDefinitionName>Scaler - Intel</componentDefinitionName>
+                            <componentDefinitionGuid>0A0ECD76-08A4-491F-A1D5-322851FD6714</componentDefinitionGuid>
+                            <componentOwningPluginName>VideoFormatUtilities</componentOwningPluginName>
+                            <componentOwningPluginId>ca.digitalrapids.VideoFormatUtilities</componentOwningPluginId>
+                            <childComponents/>
+                            <pin name="in" type="INPUT_IO"/>
+                            <pin name="out" type="OUTPUT_IO"/>
+                        </component>
+                    </childComponents>
+                    <pin name="in" type="INPUT_IO">
+                        <propertyDefinition hidden="true" name="_graphDisplayLocation" dynamic="true"/>
+                        <property name="_graphDisplayLocation">30.0,51.0</property>
+                        <pinDefinition name="in" displayName="In" type="INPUT_IO" dynamic="true"/>
+                    </pin>
+                    <pin name="x1080" type="OUTPUT_IO">
+                        <propertyDefinition hidden="true" name="_graphDisplayLocation" dynamic="true"/>
+                        <property name="_graphDisplayLocation">1075.8468017578125,51.0</property>
+                        <pinDefinition name="x1080" type="OUTPUT_IO" dynamic="true"/>
+                    </pin>
+                </component>
+            </childComponents>
+            <pin name="primarySourceFile" type="PROPERTY">
+                <propertyDefinition hidden="true" name="_graphDisplayLocation" dynamic="true"/>
+                <property name="_graphDisplayLocation">8.0,10.0</property>
+                <property name="_pinProperty">primarySourceFile</property>
+            </pin>
+            <pin name="clipListXml" type="PROPERTY">
+                <propertyDefinition hidden="true" name="_graphDisplayLocation" dynamic="true"/>
+                <property name="_graphDisplayLocation">8.0,40.0</property>
+                <property name="_pinProperty">clipListXml</property>
+            </pin>
+            <pin name="outputAssetsCommand" type="COMMAND">
+                <propertyDefinition hidden="true" name="_graphDisplayLocation" dynamic="true"/>
+                <property name="_graphDisplayLocation">2125.1725463867188,28.772497177124023</property>
+            </pin>
+        </component>
+    </components>
+    <pinConnections>
+        <connection>
+            <sourcePath>primarySourceFile</sourcePath>
+            <destinationPath>Media File Input/filename</destinationPath>
+        </connection>
+        <connection>
+            <sourcePath>SMIL Playlists Writer/writeComplete</sourcePath>
+            <destinationPath>outputAssetsCommand</destinationPath>
+        </connection>
+        <connection>
+            <sourcePath>File Output/writeComplete</sourcePath>
+            <destinationPath>outputAssetsCommand</destinationPath>
+        </connection>
+        <connection>
+            <sourcePath>Media File Input/UncompressedVideo</sourcePath>
+            <destinationPath>Video Data Type Updater/in</destinationPath>
+        </connection>
+        <connection>
+            <sourcePath>Media File Input/UncompressedAudio</sourcePath>
+            <destinationPath>Audio_prepro + AAC Encoder/in 1</destinationPath>
+        </connection>
+        <connection>
+            <sourcePath>Media File Input/UncompressedAudio 2</sourcePath>
+            <destinationPath>Audio_prepro + AAC Encoder/in 2</destinationPath>
+        </connection>
+        <connection>
+            <sourcePath>Media File Input/UncompressedAudio 3</sourcePath>
+            <destinationPath>Audio_prepro + AAC Encoder/in 3</destinationPath>
+        </connection>
+        <connection>
+            <sourcePath>Media File Input/UncompressedAudio 4</sourcePath>
+            <destinationPath>Audio_prepro + AAC Encoder/in 4</destinationPath>
+        </connection>
+        <connection>
+            <sourcePath>Media File Input/UncompressedAudio 5</sourcePath>
+            <destinationPath>Audio_prepro + AAC Encoder/in 5</destinationPath>
+        </connection>
+        <connection>
+            <sourcePath>Media File Input/UncompressedAudio 6</sourcePath>
+            <destinationPath>Audio_prepro + AAC Encoder/in 6</destinationPath>
+        </connection>
+        <connection>
+            <sourcePath>Video Data Type Updater/out</sourcePath>
+            <destinationPath>Color Space Converter - Intel/in</destinationPath>
+        </connection>
+        <connection>
+            <sourcePath>Audio_prepro + AAC Encoder/in 1</sourcePath>
+            <destinationPath>Audio_prepro + AAC Encoder/Audio Stream Interleaver/in 1</destinationPath>
+        </connection>
+        <connection>
+            <sourcePath>Audio_prepro + AAC Encoder/in 2</sourcePath>
+            <destinationPath>Audio_prepro + AAC Encoder/Audio Stream Interleaver/in 2</destinationPath>
+        </connection>
+        <connection>
+            <sourcePath>Audio_prepro + AAC Encoder/in 3</sourcePath>
+            <destinationPath>Audio_prepro + AAC Encoder/Audio Stream Interleaver/in 3</destinationPath>
+        </connection>
+        <connection>
+            <sourcePath>Audio_prepro + AAC Encoder/in 4</sourcePath>
+            <destinationPath>Audio_prepro + AAC Encoder/Audio Stream Interleaver/in 4</destinationPath>
+        </connection>
+        <connection>
+            <sourcePath>Audio_prepro + AAC Encoder/in 5</sourcePath>
+            <destinationPath>Audio_prepro + AAC Encoder/Audio Stream Interleaver/in 5</destinationPath>
+        </connection>
+        <connection>
+            <sourcePath>Audio_prepro + AAC Encoder/in 6</sourcePath>
+            <destinationPath>Audio_prepro + AAC Encoder/Audio Stream Interleaver/in 6</destinationPath>
+        </connection>
+        <connection>
+            <sourcePath>Audio_prepro + AAC Encoder/AAC Encoder (Dolby)/out</sourcePath>
+            <destinationPath>Audio_prepro + AAC Encoder/out</destinationPath>
+        </connection>
+        <connection>
+            <sourcePath>Audio_prepro + AAC Encoder/out</sourcePath>
+            <destinationPath>ISO MPEG-4 Multiplexer/Track 2</destinationPath>
+        </connection>
+        <connection>
+            <sourcePath>Audio_prepro + AAC Encoder/Audio Stream Interleaver/out</sourcePath>
+            <destinationPath>Audio_prepro + AAC Encoder/Audio Data Type Updater/in</destinationPath>
+        </connection>
+        <connection>
+            <sourcePath>Audio_prepro + AAC Encoder/Audio Data Type Updater/out</sourcePath>
+            <destinationPath>Audio_prepro + AAC Encoder/Down Mix 5.1 to Stereo/in</destinationPath>
+        </connection>
+        <connection>
+            <sourcePath>Audio_prepro + AAC Encoder/Down Mix 5.1 to Stereo/out</sourcePath>
+            <destinationPath>Audio_prepro + AAC Encoder/AAC Encoder (Dolby)/audio</destinationPath>
+        </connection>
+        <connection>
+            <sourcePath>ISO MPEG-4 Multiplexer/mp4</sourcePath>
+            <destinationPath>File Output/write</destinationPath>
+        </connection>
+        <connection>
+            <sourcePath>AVC_1080p_6Mbps_L4.1_HP_CABAC/out</sourcePath>
+            <destinationPath>ISO MPEG-4 Multiplexer/Track 1</destinationPath>
+        </connection>
+        <connection>
+            <sourcePath>Mobile Scaler/x1080</sourcePath>
+            <destinationPath>AVC_1080p_6Mbps_L4.1_HP_CABAC/Video</destinationPath>
+        </connection>
+        <connection>
+            <sourcePath>File Output/writeComplete</sourcePath>
+            <destinationPath>SMIL Playlists Writer/Playlist 1</destinationPath>
+        </connection>
+        <connection>
+            <sourcePath>Color Space Converter - Intel/out</sourcePath>
+            <destinationPath>Mobile Scaler/in</destinationPath>
+        </connection>
+        <connection>
+            <sourcePath>Mobile Scaler/in</sourcePath>
+            <destinationPath>Mobile Scaler/Digital Rapids De-interlacer/in</destinationPath>
+        </connection>
+        <connection>
+            <sourcePath>Mobile Scaler/Scale to 1080/out</sourcePath>
+            <destinationPath>Mobile Scaler/x1080</destinationPath>
+        </connection>
+        <connection>
+            <sourcePath>Mobile Scaler/Digital Rapids De-interlacer/out</sourcePath>
+            <destinationPath>Mobile Scaler/Scale to 1080/in</destinationPath>
+        </connection>
+    </pinConnections>
+    <authoringInfo>
+        <kayakFrameworkVersion>1.1.10.1</kayakFrameworkVersion>
+        <userName>rick.chappelle</userName>
+        <userLanguage>en</userLanguage>
+        <osName>Windows 7</osName>
+        <osArch>x86</osArch>
+        <osVersion>6.1</osVersion>
+        <authoredDate>2013-08-08T00:36:35.963-04:00</authoredDate>
+        <plugins>
+            <plugin pluginId="ca.digitalrapids.AACSourceController" name="AAC Source Controller">
+                <pluginVersion>1.0.19.2</pluginVersion>
+                <buildInfo>
+                    <buildDate>2013-07-17 09:38:38-0400</buildDate>
+                    <checksum>89641ece20eac8fa9dfd32a795d960a2</checksum>
+                </buildInfo>
+            </plugin>
+            <plugin pluginId="ca.digitalrapids.AES3SourceController" name="AES3SourceController">
+                <pluginVersion>1.0.17.0</pluginVersion>
+                <buildInfo>
+                    <buildDate>2013-07-25 10:15:54-0400</buildDate>
+                    <checksum>268f53fa1a0b42052b3679afdcf5011c</checksum>
+                </buildInfo>
+            </plugin>
+            <plugin pluginId="ca.digitalrapids.AVCSourceController" name="AVC Source Controller">
+                <pluginVersion>1.0.27.0</pluginVersion>
+                <buildInfo>
+                    <buildDate>2013-07-11 15:29:40-0400</buildDate>
+                    <checksum>16f102aee0a752336f954f121b90609c</checksum>
+                </buildInfo>
+            </plugin>
+            <plugin pluginId="ca.digitalrapids.Assets" name="Assets">
+                <pluginVersion>1.0.1.1</pluginVersion>
+                <buildInfo>
+                    <buildDate>2013-02-08 14:31:52-0500</buildDate>
+                    <checksum>b164dad3dc690edd6c86f8211805b6f2</checksum>
+                </buildInfo>
+            </plugin>
+            <plugin pluginId="ca.digitalrapids.AudioFormatConverter" name="AudioFormatConverter">
+                <pluginVersion>1.0.8.0</pluginVersion>
+                <buildInfo>
+                    <buildDate>2013-04-18 12:50:33-0400</buildDate>
+                    <checksum>8bb0fa134faada3c5b31cd8dbe917bf5</checksum>
+                </buildInfo>
+            </plugin>
+            <plugin pluginId="ca.digitalrapids.AudioFormatUtilities" name="AudioFormatUtilities">
+                <pluginVersion>1.0.32.4</pluginVersion>
+                <buildInfo>
+                    <buildDate>2013-07-26 15:01:27-0400</buildDate>
+                    <checksum>74983f1a9e8d87d714cb4522953d4121</checksum>
+                </buildInfo>
+            </plugin>
+            <plugin pluginId="ca.digitalrapids.ClosedCaptionsUtilities" name="ClosedCaptionsUtilities">
+                <pluginVersion>1.0.21.0</pluginVersion>
+                <buildInfo>
+                    <buildDate>2013-07-15 11:00:28-0400</buildDate>
+                    <checksum>df95faa2ed192805adb9e07e30cfe50f</checksum>
+                </buildInfo>
+            </plugin>
+            <plugin pluginId="ca.digitalrapids.CommonAAC" name="CommonAAC">
+                <pluginVersion>1.0.4.1</pluginVersion>
+                <buildInfo>
+                    <buildDate>2013-02-08 12:07:31-0500</buildDate>
+                    <checksum>c4bd60677a997c4ce104227fac9da64f</checksum>
+                </buildInfo>
+            </plugin>
+            <plugin pluginId="ca.digitalrapids.CommonAC3" name="CommonAC3">
+                <pluginVersion>1.1.7.1</pluginVersion>
+                <buildInfo>
+                    <buildDate>2013-02-08 12:09:32-0500</buildDate>
+                    <checksum>64c98f92fc2e7a4148d668bec56d28bf</checksum>
+                </buildInfo>
+            </plugin>
+            <plugin pluginId="ca.digitalrapids.CommonAES3" name="CommonAES3">
+                <pluginVersion>1.1.1.0</pluginVersion>
+                <buildInfo>
+                    <buildDate>2013-04-22 10:05:58-0400</buildDate>
+                    <checksum>9ecf705ab863519ed458d097de95f042</checksum>
+                </buildInfo>
+            </plugin>
+            <plugin pluginId="ca.digitalrapids.CommonAVC" name="CommonAVC">
+                <pluginVersion>1.0.15.0</pluginVersion>
+                <buildInfo>
+                    <buildDate>2013-06-11 09:29:41-0400</buildDate>
+                    <checksum>f8776873137e0591100a8cefabbf3fc9</checksum>
+                </buildInfo>
+            </plugin>
+            <plugin pluginId="ca.digitalrapids.CommonComponents" name="CommonComponents">
+                <pluginVersion>1.1.15.0</pluginVersion>
+                <buildInfo>
+                    <buildDate>2013-07-30 17:12:35-0400</buildDate>
+                    <checksum>f3f1a163ba09fb9d7ec1c580b4e51356</checksum>
+                </buildInfo>
+            </plugin>
+            <plugin pluginId="ca.digitalrapids.CommonDTS" name="CommonDTS">
+                <pluginVersion>1.0.2.1</pluginVersion>
+                <buildInfo>
+                    <buildDate>2013-02-08 12:11:33-0500</buildDate>
+                    <checksum>e8169b2e389faa4c82bb39f4af509930</checksum>
+                </buildInfo>
+            </plugin>
+            <plugin pluginId="ca.digitalrapids.CommonEAC3" name="CommonEAC3">
+                <pluginVersion>1.0.4.1</pluginVersion>
+                <buildInfo>
+                    <buildDate>2013-02-08 12:25:35-0500</buildDate>
+                    <checksum>c3449ad1006c888718b3ff15c03ef9dd</checksum>
+                </buildInfo>
+            </plugin>
+            <plugin pluginId="ca.digitalrapids.CommonImageFormats" name="CommonImageFormats">
+                <pluginVersion>1.0.13.0</pluginVersion>
+                <buildInfo>
+                    <buildDate>2013-07-24 16:21:59-0400</buildDate>
+                    <checksum>cdd7a95bb31bf3a7a04dc4bba89c80f7</checksum>
+                </buildInfo>
+            </plugin>
+            <plugin pluginId="ca.digitalrapids.CommonIntelIPP" name="CommonIntelIPP">
+                <pluginVersion>1.0.9.0</pluginVersion>
+                <buildInfo>
+                    <buildDate>2013-07-15 11:12:06-0400</buildDate>
+                    <checksum>8bbf17e1a016de763e3d224437aa6333</checksum>
+                </buildInfo>
+            </plugin>
+            <plugin pluginId="ca.digitalrapids.CommonJ2KVideo" name="CommonJ2KVideo">
+                <pluginVersion>1.0.1.1</pluginVersion>
+                <buildInfo>
+                    <buildDate>2013-02-08 12:00:30-0500</buildDate>
+                    <checksum>5fc78490771f34844f99a2e78713c13d</checksum>
+                </buildInfo>
+            </plugin>
+            <plugin pluginId="ca.digitalrapids.CommonLanguage" name="CommonLanguage">
+                <pluginVersion>1.0.12.0</pluginVersion>
+                <buildInfo>
+                    <buildDate>2013-07-15 10:51:47-0400</buildDate>
+                    <checksum>a5b889436cfe0a46a1a6971430676d16</checksum>
+                </buildInfo>
+            </plugin>
+            <plugin pluginId="ca.digitalrapids.CommonMPEG" name="CommonMPEG">
+                <pluginVersion>1.0.3.0</pluginVersion>
+                <buildInfo>
+                    <buildDate>2013-07-12 14:52:27-0400</buildDate>
+                    <checksum>2f9f5624dca17af1b4d6f4401ed12791</checksum>
+                </buildInfo>
+            </plugin>
+            <plugin pluginId="ca.digitalrapids.CommonMPEG1" name="CommonMPEG1">
+                <pluginVersion>1.0.2.1</pluginVersion>
+                <buildInfo>
+                    <buildDate>2013-02-08 11:54:15-0500</buildDate>
+                    <checksum>abf28a9944a001f2d0469529b93f45ba</checksum>
+                </buildInfo>
+            </plugin>
+            <plugin pluginId="ca.digitalrapids.CommonMPEG2" name="CommonMPEG2">
+                <pluginVersion>1.0.9.0</pluginVersion>
+                <buildInfo>
+                    <buildDate>2013-04-30 10:29:06-0400</buildDate>
+                    <checksum>6e8c53770af5711e2a23ca2a24341b3c</checksum>
+                </buildInfo>
+            </plugin>
+            <plugin pluginId="ca.digitalrapids.CommonMPEG4" name="CommonMPEG4">
+                <pluginVersion>1.0.9.2</pluginVersion>
+                <buildInfo>
+                    <buildDate>2013-03-07 11:36:07-0500</buildDate>
+                    <checksum>9f7d6a391bcdb40f755dbe9a0ade2391</checksum>
+                </buildInfo>
+            </plugin>
+            <plugin pluginId="ca.digitalrapids.CommonMXF" name="CommonMXF">
+                <pluginVersion>1.0.1.1</pluginVersion>
+                <buildInfo>
+                    <buildDate>2013-02-08 12:27:33-0500</buildDate>
+                    <checksum>9396957a0728a7cf4db9ed21cdaec9a3</checksum>
+                </buildInfo>
+            </plugin>
+            <plugin pluginId="ca.digitalrapids.CommonMedia" name="CommonMedia">
+                <pluginVersion>1.0.28.0</pluginVersion>
+                <buildInfo>
+                    <buildDate>2013-07-15 16:01:50-0400</buildDate>
+                    <checksum>74e16b48d1964acd72661c04c55fcc99</checksum>
+                </buildInfo>
+            </plugin>
+            <plugin pluginId="ca.digitalrapids.CommonMediaEncryption" name="CommonMediaEncryption">
+                <pluginVersion>1.0.5.0</pluginVersion>
+                <buildInfo>
+                    <buildDate>2013-05-10 12:01:39-0400</buildDate>
+                    <checksum>fb7da16a8e0ee76e704d592078b95c87</checksum>
+                </buildInfo>
+            </plugin>
+            <plugin pluginId="ca.digitalrapids.CommonMetadata" name="CommonMetadata">
+                <pluginVersion>1.0.3.1</pluginVersion>
+                <buildInfo>
+                    <buildDate>2013-02-08 11:36:09-0500</buildDate>
+                    <checksum>190db5f514f0fde3cd0097df36b4a33c</checksum>
+                </buildInfo>
+            </plugin>
+            <plugin pluginId="ca.digitalrapids.CommonPlayReadyEncryption" name="CommonPlayReadyEncryption">
+                <pluginVersion>1.0.4.0</pluginVersion>
+                <buildInfo>
+                    <buildDate>2013-04-30 15:59:28-0400</buildDate>
+                    <checksum>9c0fa37dbcf5e364cc72d6291b3e25a1</checksum>
+                </buildInfo>
+            </plugin>
+            <plugin pluginId="ca.digitalrapids.CommonQuickTime" name="CommonQuickTime">
+                <pluginVersion>1.0.1.1</pluginVersion>
+                <buildInfo>
+                    <buildDate>2013-02-08 12:29:30-0500</buildDate>
+                    <checksum>cf7a8ff1c772980b4293cb4c44e83475</checksum>
+                </buildInfo>
+            </plugin>
+            <plugin pluginId="ca.digitalrapids.CommonStereoVideo" name="CommonStereoVideo">
+                <pluginVersion>1.0.1.0</pluginVersion>
+                <buildInfo>
+                    <buildDate>2013-07-12 17:11:06-0400</buildDate>
+                    <checksum>c960da5b86e83e73bb167967e1d77144</checksum>
+                </buildInfo>
+            </plugin>
+            <plugin pluginId="ca.digitalrapids.CommonSubtitles" name="CommonSubtitles">
+                <pluginVersion>1.0.6.0</pluginVersion>
+                <buildInfo>
+                    <buildDate>2013-05-13 11:03:03-0400</buildDate>
+                    <checksum>9d825f3213031b01843876593e6fd124</checksum>
+                </buildInfo>
+            </plugin>
+            <plugin pluginId="ca.digitalrapids.CommonTimecode" name="CommonTimecode">
+                <pluginVersion>1.0.9.0</pluginVersion>
+                <buildInfo>
+                    <buildDate>2013-05-30 14:55:55-0400</buildDate>
+                    <checksum>1515a287a452e5dd4f324a71958d8f17</checksum>
+                </buildInfo>
+            </plugin>
+            <plugin pluginId="ca.digitalrapids.CommonVideoSystem" name="CommonVideoSystem">
+                <pluginVersion>1.0.40.0</pluginVersion>
+                <buildInfo>
+                    <buildDate>2013-07-29 12:42:11-0400</buildDate>
+                    <checksum>062254bd790011775a4275940e22ec3c</checksum>
+                </buildInfo>
+            </plugin>
+            <plugin pluginId="ca.digitalrapids.CommonWAVE" name="CommonWAVE">
+                <pluginVersion>1.0.1.1</pluginVersion>
+                <buildInfo>
+                    <buildDate>2013-02-08 12:13:32-0500</buildDate>
+                    <checksum>3e419a52782fee2c1359ed47c3aac5b4</checksum>
+                </buildInfo>
+            </plugin>
+            <plugin pluginId="ca.digitalrapids.DRAVCEncoder" name="DRAVCEncoder">
+                <pluginVersion>1.0.49.0</pluginVersion>
+                <buildInfo>
+                    <buildDate>2013-08-02 14:24:42-0400</buildDate>
+                    <checksum>dbba49986801aa4c8db8d98b130584bc</checksum>
+                </buildInfo>
+            </plugin>
+            <plugin pluginId="ca.digitalrapids.DRDeinterlacer" name="DRDeinterlacer">
+                <pluginVersion>1.4.1.0</pluginVersion>
+                <buildInfo>
+                    <buildDate>2013-07-17 18:39:18-0400</buildDate>
+                    <checksum>80e4de3c74731308652c44554e87ba0b</checksum>
+                </buildInfo>
+            </plugin>
+            <plugin pluginId="ca.digitalrapids.DRMediaProcessing" name="DRMediaProcessing">
+                <pluginVersion>2.4.1.0</pluginVersion>
+                <buildInfo>
+                    <buildDate>2013-08-01 19:16:46-0400</buildDate>
+                    <checksum>612199f56d4ef6e92cce0d3af36c1085</checksum>
+                </buildInfo>
+            </plugin>
+            <plugin pluginId="ca.digitalrapids.DRProgressiveToInterlaced" name="DRProgressiveToInterlaced">
+                <pluginVersion>1.1.1.0</pluginVersion>
+                <buildInfo>
+                    <buildDate>2013-07-09 14:41:44-0400</buildDate>
+                    <checksum>753e495fb04c4e993447834f1404ebdb</checksum>
+                </buildInfo>
+            </plugin>
+            <plugin pluginId="ca.digitalrapids.DRScaler" name="DRScaler">
+                <pluginVersion>1.1.1.0</pluginVersion>
+                <buildInfo>
+                    <buildDate>2013-07-09 14:54:28-0400</buildDate>
+                    <checksum>23c7825b015a6bd78a57a82c1c728549</checksum>
+                </buildInfo>
+            </plugin>
+            <plugin pluginId="ca.digitalrapids.DTSSourceController" name="DTS Source Controller">
+                <pluginVersion>1.0.10.0</pluginVersion>
+                <buildInfo>
+                    <buildDate>2013-06-19 10:57:08-0400</buildDate>
+                    <checksum>6d4bf403981983602a86fe112a77c861</checksum>
+                </buildInfo>
+            </plugin>
+            <plugin pluginId="ca.digitalrapids.DirectShowFileSource" name="DirectShowFileSource">
+                <pluginVersion>1.0.5.0</pluginVersion>
+                <buildInfo>
+                    <buildDate>2013-08-07 15:14:55-0400</buildDate>
+                    <checksum>cb8522e570d5c9823bf0135ccef15202</checksum>
+                </buildInfo>
+            </plugin>
+            <plugin pluginId="ca.digitalrapids.DolbyPulseEncoder" name="DolbyPulseEncoder">
+                <pluginVersion>1.0.20.0</pluginVersion>
+                <buildInfo>
+                    <buildDate>2013-06-20 13:10:37-0400</buildDate>
+                    <checksum>2a1d8cdc54cbc553924f6b26df9ee204</checksum>
+                </buildInfo>
+            </plugin>
+            <plugin pluginId="ca.digitalrapids.EIACaptionsRetimer" name="EIACaptionsRetimer">
+                <pluginVersion>1.0.11.0</pluginVersion>
+                <buildInfo>
+                    <buildDate>2013-07-02 14:26:36-0400</buildDate>
+                    <checksum>7af404b7057d0ace00302f8c4adb002e</checksum>
+                </buildInfo>
+            </plugin>
+            <plugin pluginId="ca.digitalrapids.HttpUtilities" name="HTTP Utilities">
+                <pluginVersion>1.2.12.0</pluginVersion>
+                <buildInfo>
+                    <buildDate>2013-07-15 10:55:28-0400</buildDate>
+                    <checksum>09271dc069336f0475a7cf46efdcdb64</checksum>
+                </buildInfo>
+            </plugin>
+            <plugin pluginId="ca.digitalrapids.KayakCore" name="KayakCore">
+                <pluginVersion>1.1.10.1</pluginVersion>
+            </plugin>
+            <plugin pluginId="ca.digitalrapids.KayakDesigner" name="KayakDesigner">
+                <pluginVersion>1.1.10.0</pluginVersion>
+                <buildInfo>
+                    <buildDate>2013-08-07 19:08:56-0400</buildDate>
+                    <checksum>35b2ca80d45bb0d8890493fd4f133f9b</checksum>
+                </buildInfo>
+            </plugin>
+            <plugin pluginId="ca.digitalrapids.MPEG2UDMuxer" name="MPEG2UDMuxer">
+                <pluginVersion>1.0.21.0</pluginVersion>
+                <buildInfo>
+                    <buildDate>2013-07-18 14:59:17-0400</buildDate>
+                    <checksum>63443fa7aebd1404f2707f7da014e490</checksum>
+                </buildInfo>
+            </plugin>
+            <plugin pluginId="ca.digitalrapids.MPEG2VideoSourceController" name="MPEG2VideoSourceController">
+                <pluginVersion>1.0.18.0</pluginVersion>
+                <buildInfo>
+                    <buildDate>2013-07-12 14:20:03-0400</buildDate>
+                    <checksum>65c325e41fcec5c957b32357bbdf888d</checksum>
+                </buildInfo>
+            </plugin>
+            <plugin pluginId="ca.digitalrapids.MPEG4Muxer" name="MPEG4Muxer">
+                <pluginVersion>1.1.23.0</pluginVersion>
+                <buildInfo>
+                    <buildDate>2013-07-12 17:21:25-0400</buildDate>
+                    <checksum>9b6a3dcc8df639c3b3f890bb8a23c189</checksum>
+                </buildInfo>
+            </plugin>
+            <plugin pluginId="ca.digitalrapids.MPEGVideoDecoder" name="MPEGVideoDecoder">
+                <pluginVersion>1.0.13.0</pluginVersion>
+                <buildInfo>
+                    <buildDate>2013-07-12 15:06:00-0400</buildDate>
+                    <checksum>e483d113edac923daff0b74b13aef553</checksum>
+                </buildInfo>
+            </plugin>
+            <plugin pluginId="ca.digitalrapids.MXFDemuxer" name="MXFDemuxer">
+                <pluginVersion>1.0.26.0</pluginVersion>
+                <buildInfo>
+                    <buildDate>2013-07-26 14:51:51-0400</buildDate>
+                    <checksum>61c610c9e1fc57a7d43e0179f8f81522</checksum>
+                </buildInfo>
+            </plugin>
+            <plugin pluginId="ca.digitalrapids.MediaInspection" name="MediaInspection">
+                <pluginVersion>1.0.27.0</pluginVersion>
+                <buildInfo>
+                    <buildDate>2013-08-07 15:39:31-0400</buildDate>
+                    <checksum>b7ae0b70e894ac13230628e6a44b47a6</checksum>
+                </buildInfo>
+            </plugin>
+            <plugin pluginId="ca.digitalrapids.MediaManager" name="Media Manager">
+                <pluginVersion>1.0.43.0</pluginVersion>
+                <buildInfo>
+                    <buildDate>2013-07-22 21:11:25-0400</buildDate>
+                    <checksum>3b02b975fca2996557389f0b71b4137e</checksum>
+                </buildInfo>
+            </plugin>
+            <plugin pluginId="ca.digitalrapids.MediaManagerWSClient" name="Media Manager WS Client">
+                <pluginVersion>1.0.6.0</pluginVersion>
+                <buildInfo>
+                    <buildDate>2013-07-19 16:29:35-0400</buildDate>
+                    <checksum>5181261327b1d7194226a6a4b691d495</checksum>
+                </buildInfo>
+            </plugin>
+            <plugin pluginId="ca.digitalrapids.SMILUtilities" name="SMILUtilities">
+                <pluginVersion>1.0.9.0</pluginVersion>
+                <buildInfo>
+                    <buildDate>2013-07-10 15:23:58-0400</buildDate>
+                    <checksum>fa92aa1473a62f65d1e741d4c67c045e</checksum>
+                </buildInfo>
+            </plugin>
+            <plugin pluginId="ca.digitalrapids.StreamSynchronizers" name="StreamSynchronizers">
+                <pluginVersion>1.0.25.5</pluginVersion>
+                <buildInfo>
+                    <buildDate>2013-08-02 15:01:51-0400</buildDate>
+                    <checksum>1b332e614e49f8083b7219e63292688c</checksum>
+                </buildInfo>
+            </plugin>
+            <plugin pluginId="ca.digitalrapids.TimecodeEncoder" name="TimecodeEncoder">
+                <pluginVersion>1.0.14.0</pluginVersion>
+                <buildInfo>
+                    <buildDate>2013-06-21 13:29:46-0400</buildDate>
+                    <checksum>0a98d6e5d1f1c86f11f037656827c69c</checksum>
+                </buildInfo>
+            </plugin>
+            <plugin pluginId="ca.digitalrapids.UltravioletUtilities" name="UltravioletUtilities">
+                <pluginVersion>1.0.2.1</pluginVersion>
+                <buildInfo>
+                    <buildDate>2013-02-08 13:07:49-0500</buildDate>
+                    <checksum>b0f83d77e05802ccf937dcb93893fd35</checksum>
+                </buildInfo>
+            </plugin>
+            <plugin pluginId="ca.digitalrapids.VideoBorder" name="VideoBorder">
+                <pluginVersion>1.0.23.0</pluginVersion>
+                <buildInfo>
+                    <buildDate>2013-07-15 13:02:46-0400</buildDate>
+                    <checksum>d32bdef1f24ae731f289d6173eff360e</checksum>
+                </buildInfo>
+            </plugin>
+            <plugin pluginId="ca.digitalrapids.VideoDeinterlacers" name="VideoDeinterlacers">
+                <pluginVersion>1.0.9.0</pluginVersion>
+                <buildInfo>
+                    <buildDate>2013-07-15 13:09:34-0400</buildDate>
+                    <checksum>bed747f7369a622276e85d5fb5b5782d</checksum>
+                </buildInfo>
+            </plugin>
+            <plugin pluginId="ca.digitalrapids.VideoFormatConverter" name="VideoFormatConverter">
+                <pluginVersion>1.0.28.0</pluginVersion>
+                <buildInfo>
+                    <buildDate>2013-07-15 16:07:22-0400</buildDate>
+                    <checksum>797f2867c0f0034ed8c4708436f2e6b2</checksum>
+                </buildInfo>
+            </plugin>
+            <plugin pluginId="ca.digitalrapids.VideoFormatUtilities" name="VideoFormatUtilities">
+                <pluginVersion>1.0.39.0</pluginVersion>
+                <buildInfo>
+                    <buildDate>2013-08-07 09:14:12-0400</buildDate>
+                    <checksum>4e912fd07e9e3d6a2e2fc03f1eee84b9</checksum>
+                </buildInfo>
+            </plugin>
+            <plugin pluginId="ca.digitalrapids.VideoProcessor" name="VideoProcessor">
+                <pluginVersion>1.0.12.0</pluginVersion>
+                <buildInfo>
+                    <buildDate>2013-07-15 11:57:23-0400</buildDate>
+                    <checksum>2cb8803a9ffb4ec0f812cd6009fdfa0d</checksum>
+                </buildInfo>
+            </plugin>
+        </plugins>
+    </authoringInfo>
+    <dependencyInfo>
+        <plugins>
+            <plugin pluginId="ca.digitalrapids.AACSourceController" name="AAC Source Controller"/>
+            <plugin pluginId="ca.digitalrapids.AES3SourceController" name="AES3SourceController"/>
+            <plugin pluginId="ca.digitalrapids.AVCSourceController" name="AVC Source Controller"/>
+            <plugin pluginId="ca.digitalrapids.Assets" name="Assets"/>
+            <plugin pluginId="ca.digitalrapids.AudioFormatConverter" name="AudioFormatConverter"/>
+            <plugin pluginId="ca.digitalrapids.AudioFormatUtilities" name="AudioFormatUtilities"/>
+            <plugin pluginId="ca.digitalrapids.ClosedCaptionsUtilities" name="ClosedCaptionsUtilities"/>
+            <plugin pluginId="ca.digitalrapids.CommonAAC" name="CommonAAC"/>
+            <plugin pluginId="ca.digitalrapids.CommonAC3" name="CommonAC3"/>
+            <plugin pluginId="ca.digitalrapids.CommonAES3" name="CommonAES3"/>
+            <plugin pluginId="ca.digitalrapids.CommonAVC" name="CommonAVC"/>
+            <plugin pluginId="ca.digitalrapids.CommonComponents" name="CommonComponents"/>
+            <plugin pluginId="ca.digitalrapids.CommonDTS" name="CommonDTS"/>
+            <plugin pluginId="ca.digitalrapids.CommonEAC3" name="CommonEAC3"/>
+            <plugin pluginId="ca.digitalrapids.CommonImageFormats" name="CommonImageFormats"/>
+            <plugin pluginId="ca.digitalrapids.CommonIntelIPP" name="CommonIntelIPP"/>
+            <plugin pluginId="ca.digitalrapids.CommonJ2KVideo" name="CommonJ2KVideo"/>
+            <plugin pluginId="ca.digitalrapids.CommonLanguage" name="CommonLanguage"/>
+            <plugin pluginId="ca.digitalrapids.CommonMPEG" name="CommonMPEG"/>
+            <plugin pluginId="ca.digitalrapids.CommonMPEG1" name="CommonMPEG1"/>
+            <plugin pluginId="ca.digitalrapids.CommonMPEG2" name="CommonMPEG2"/>
+            <plugin pluginId="ca.digitalrapids.CommonMPEG4" name="CommonMPEG4"/>
+            <plugin pluginId="ca.digitalrapids.CommonMXF" name="CommonMXF"/>
+            <plugin pluginId="ca.digitalrapids.CommonMedia" name="CommonMedia"/>
+            <plugin pluginId="ca.digitalrapids.CommonMediaEncryption" name="CommonMediaEncryption"/>
+            <plugin pluginId="ca.digitalrapids.CommonMetadata" name="CommonMetadata"/>
+            <plugin pluginId="ca.digitalrapids.CommonPlayReadyEncryption" name="CommonPlayReadyEncryption"/>
+            <plugin pluginId="ca.digitalrapids.CommonQuickTime" name="CommonQuickTime"/>
+            <plugin pluginId="ca.digitalrapids.CommonStereoVideo" name="CommonStereoVideo"/>
+            <plugin pluginId="ca.digitalrapids.CommonSubtitles" name="CommonSubtitles"/>
+            <plugin pluginId="ca.digitalrapids.CommonTimecode" name="CommonTimecode"/>
+            <plugin pluginId="ca.digitalrapids.CommonVideoSystem" name="CommonVideoSystem"/>
+            <plugin pluginId="ca.digitalrapids.CommonWAVE" name="CommonWAVE"/>
+            <plugin pluginId="ca.digitalrapids.DRAVCEncoder" name="DRAVCEncoder"/>
+            <plugin pluginId="ca.digitalrapids.DRDeinterlacer" name="DRDeinterlacer"/>
+            <plugin pluginId="ca.digitalrapids.DRMediaProcessing" name="DRMediaProcessing"/>
+            <plugin pluginId="ca.digitalrapids.DRProgressiveToInterlaced" name="DRProgressiveToInterlaced"/>
+            <plugin pluginId="ca.digitalrapids.DRScaler" name="DRScaler"/>
+            <plugin pluginId="ca.digitalrapids.DTSSourceController" name="DTS Source Controller"/>
+            <plugin pluginId="ca.digitalrapids.DirectShowFileSource" name="DirectShowFileSource"/>
+            <plugin pluginId="ca.digitalrapids.DolbyPulseEncoder" name="DolbyPulseEncoder"/>
+            <plugin pluginId="ca.digitalrapids.EIACaptionsRetimer" name="EIACaptionsRetimer"/>
+            <plugin pluginId="ca.digitalrapids.HttpUtilities" name="HTTP Utilities"/>
+            <plugin pluginId="ca.digitalrapids.KayakCore" name="KayakCore"/>
+            <plugin pluginId="ca.digitalrapids.KayakDesigner" name="KayakDesigner"/>
+            <plugin pluginId="ca.digitalrapids.MPEG2UDMuxer" name="MPEG2UDMuxer"/>
+            <plugin pluginId="ca.digitalrapids.MPEG2VideoSourceController" name="MPEG2VideoSourceController"/>
+            <plugin pluginId="ca.digitalrapids.MPEG4Muxer" name="MPEG4Muxer"/>
+            <plugin pluginId="ca.digitalrapids.MPEGVideoDecoder" name="MPEGVideoDecoder"/>
+            <plugin pluginId="ca.digitalrapids.MXFDemuxer" name="MXFDemuxer"/>
+            <plugin pluginId="ca.digitalrapids.MediaInspection" name="MediaInspection"/>
+            <plugin pluginId="ca.digitalrapids.MediaManager" name="Media Manager"/>
+            <plugin pluginId="ca.digitalrapids.MediaManagerWSClient" name="Media Manager WS Client"/>
+            <plugin pluginId="ca.digitalrapids.SMILUtilities" name="SMILUtilities"/>
+            <plugin pluginId="ca.digitalrapids.StreamSynchronizers" name="StreamSynchronizers"/>
+            <plugin pluginId="ca.digitalrapids.TimecodeEncoder" name="TimecodeEncoder"/>
+            <plugin pluginId="ca.digitalrapids.UltravioletUtilities" name="UltravioletUtilities"/>
+            <plugin pluginId="ca.digitalrapids.VideoBorder" name="VideoBorder"/>
+            <plugin pluginId="ca.digitalrapids.VideoDeinterlacers" name="VideoDeinterlacers"/>
+            <plugin pluginId="ca.digitalrapids.VideoFormatConverter" name="VideoFormatConverter"/>
+            <plugin pluginId="ca.digitalrapids.VideoFormatUtilities" name="VideoFormatUtilities"/>
+            <plugin pluginId="ca.digitalrapids.VideoProcessor" name="VideoProcessor"/>
+        </plugins>
+        <components>
+            <component pluginId="ca.digitalrapids.AACSourceController" name="AAC ADTS to Raw Converter" guid="eed0ba59-346f-47b0-ba9a-2ea14be6fa53"/>
+            <component pluginId="ca.digitalrapids.AACSourceController" name="AAC Controller" guid="784ee2cc-8a15-41c9-b84b-1a79ced4a646"/>
+            <component pluginId="ca.digitalrapids.DolbyPulseEncoder" name="AAC Encoder - Dolby Pulse" displayName="AAC Encoder (Dolby)" guid="D0933A55-4818-4ADC-9301-8BE7687AC9E3"/>
+            <component pluginId="ca.digitalrapids.DolbyPulseEncoder" name="Atomic AAC Encoder - Dolby Pulse" displayName="AAC Encoder Core (Dolby)" guid="8916cfea-3397-4310-b5bb-402e27fb0baf"/>
+            <component pluginId="ca.digitalrapids.AES3SourceController" name="AES3 Controller" guid="27e78f33-8cf3-4b32-bb7c-03009984567f"/>
+            <component pluginId="ca.digitalrapids.VideoFormatUtilities" name="Pixel Aspect Ratio Updater" displayName="Aspect Ratio Updater" guid="d75a869d-be42-43e9-b74d-b7d04adf1ae5"/>
+            <component pluginId="ca.digitalrapids.AudioFormatUtilities" name="Audio Data Type Updater" guid="9D095BEC-5A2C-445e-9AF9-A17313693263"/>
+            <component pluginId="ca.digitalrapids.AudioFormatConverter" name="Audio Format Converter" guid="F2A4515C-ABD5-49f9-B0D5-DB462E4BB674"/>
+            <component pluginId="ca.digitalrapids.AudioFormatUtilities" name="Audio Sample Rate Updater" guid="1D20E701-CE2C-4155-9C95-0F509EFFF4AF"/>
+            <component pluginId="ca.digitalrapids.AudioFormatUtilities" name="Audio Stream Interleaver" guid="D166D48B-FA26-44ca-8F2D-62B20D892659"/>
+            <component pluginId="ca.digitalrapids.AVCSourceController" name="AVC Controller" guid="6ae5cf5f-3a25-4f61-8e3c-16c33b474d4c"/>
+            <component pluginId="ca.digitalrapids.AVCSourceController" name="AVC Part10 to Part15 Converter" guid="b2eC0208-f841-4272-8a16-4b88e80d86a5"/>
+            <component pluginId="ca.digitalrapids.DRAVCEncoder" name="Advanced AVC Encoder" displayName="AVC Video Encoder" guid="A3597472-D51E-44d9-9F0A-395744A83FA3"/>
+            <component pluginId="ca.digitalrapids.DRAVCEncoder" name="AVC Encoder" displayName="AVC Video Encoder Core" guid="16c55dc4-7cd8-4d25-bfec-1cc4aebad739"/>
+            <component pluginId="ca.digitalrapids.AudioFormatUtilities" name="Bit Depth Converter" guid="7DF81BC0-6DFD-44fd-BDAA-2E568F65CFF6"/>
+            <component pluginId="ca.digitalrapids.AudioFormatUtilities" name="Channel Mapper" displayName="Channel Remapper" guid="771ACEB1-E611-4803-A356-21F221E3753D"/>
+            <component pluginId="ca.digitalrapids.VideoFormatUtilities" name="Color Space Converter - Intel" displayName="Color Space Converter - Intel" guid="2FDE07E0-7DBF-47e2-BC73-91F3B82D4392"/>
+            <component pluginId="ca.digitalrapids.CommonComponents" name="Data Type Merger" guid="4971c1a4-07ab-4c9a-93a6-947526a1005d"/>
+            <component pluginId="ca.digitalrapids.DRDeinterlacer" name="DRDeinterlacer" displayName="Digital Rapids De-interlacer" guid="750D51F3-FC19-410f-89AB-B7F3E8CAFEDC"/>
+            <component pluginId="ca.digitalrapids.AudioFormatUtilities" name="Down Mix 5.1 to Stereo" guid="9B591F12-F688-4776-8F56-EC22E1DC367E"/>
+            <component pluginId="ca.digitalrapids.CommonComponents" name="EndOfStreamNotification" displayName="End of Stream Notification" guid="285BF6A1-3FEA-4c2a-9D2D-4DB4B965C3EA"/>
+            <component pluginId="ca.digitalrapids.CommonMedia" name="Endian Converter" guid="D076A34F-6E7D-46BD-875A-4C590B5538BF"/>
+            <component pluginId="ca.digitalrapids.CommonComponents" name="File Output" guid="9b376163-de8d-4e09-8bed-353725b6b6d6"/>
+            <component pluginId="ca.digitalrapids.VideoBorder" name="Image Crop" guid="38EE16EB-B2A6-481e-93C1-587947E5522B"/>
+            <component pluginId="ca.digitalrapids.MPEG4Muxer" name="Advanced ISO MPEG4 Multiplexer" displayName="ISO MPEG-4 Multiplexer" guid="E25468C3-A65C-4f1a-8172-E72CE4B63A70"/>
+            <component pluginId="ca.digitalrapids.MPEG4Muxer" name="ISO MPEG4 Multiplexer" displayName="ISO MPEG-4 Multiplexer Core" guid="3CC47644-DC6D-4f2b-AB3B-580D305F47CC"/>
+            <component pluginId="ca.digitalrapids.KayakCore" name="Kayak Graph" guid="abc785f2-427e-4522-ba00-f3cb6acd1220"/>
+            <component pluginId="ca.digitalrapids.KayakCore" name="Kayak OOP Graph" guid="967a0d59-a62e-4c75-962c-4f65c180d45c"/>
+            <component pluginId="ca.digitalrapids.CommonLanguage" name="Language Code Updater" guid="563232cc-20ba-453f-8f69-43284cea7abc"/>
+            <component pluginId="ca.digitalrapids.CommonMedia" name="Media Data Type Auto Updater" guid="9dc80c38-b4ff-4b3e-8324-2f29abeb461e"/>
+            <component pluginId="ca.digitalrapids.MediaInspection" name="Media File Input" guid="7cec6ecd-a477-4834-bc6f-97e34aa58bb5"/>
+            <component pluginId="ca.digitalrapids.MediaInspection" name="Media Inspector" guid="3ada68f0-f492-4133-87e2-cdb55ae9f7fc"/>
+            <component pluginId="ca.digitalrapids.MPEG2VideoSourceController" name="MPEG2 Video Controller" displayName="MPEG Video Controller" guid="232820c7-05c5-4938-b92e-19798db53a3c"/>
+            <component pluginId="ca.digitalrapids.MPEGVideoDecoder" name="MPEG Video Decoder" displayName="MPEG Video Decoder" guid="63701505-b844-4f9e-8077-81065262388d"/>
+            <component pluginId="ca.digitalrapids.AudioFormatUtilities" name="Multi-Program Audio Splitter" displayName="Multi-Program Audio Splitter" guid="6436a63f-1fa4-40e6-ba86-95138130d456"/>
+            <component pluginId="ca.digitalrapids.MXFDemuxer" name="MXF Demultiplexer" guid="1A6B42BD-8131-41c3-8E51-361AB75A08B5"/>
+            <component pluginId="ca.digitalrapids.VideoBorder" name="Overscan Remover" displayName="Overscan Remover" guid="10C08290-3C78-485A-847D-0853FC2D2608"/>
+            <component pluginId="ca.digitalrapids.CommonComponents" name="Random Access File" guid="ef0bd6fd-7564-4efb-bb78-a184bce33a29"/>
+            <component pluginId="ca.digitalrapids.AudioFormatUtilities" name="Sample Rate Converter" guid="0DAC861A-FDD8-4e0c-97BB-3341C4E46999"/>
+            <component pluginId="ca.digitalrapids.VideoFormatUtilities" name="Scaler - Intel" displayName="Scaler - Intel" guid="0A0ECD76-08A4-491F-A1D5-322851FD6714"/>
+            <component pluginId="ca.digitalrapids.VideoFormatUtilities" name="Scaler - Intel Core" displayName="Scaler - Intel Core" guid="D5E330DB-8C0B-458f-9631-6370CAF359AA"/>
+            <component pluginId="ca.digitalrapids.SMILUtilities" name="SMIL Playlists Writer" guid="BC11DDED-63C0-4488-A7DB-309322189918"/>
+            <component pluginId="ca.digitalrapids.AudioFormatUtilities" name="Speaker Position Assigner" guid="AB851938-A3DA-4062-9F4A-FB8AF260D887"/>
+            <component pluginId="ca.digitalrapids.StreamSynchronizers" name="Stream Trimmer" guid="4EDCEFA6-93DE-463f-8C6B-543ED2CFCA77"/>
+            <component pluginId="ca.digitalrapids.StreamSynchronizers" name="Stream Truncator" guid="3B8118A9-72E6-42b7-910A-014D9E8C1575"/>
+            <component pluginId="ca.digitalrapids.MediaManager" name="Transcode Task Graph" displayName="Transcode Blueprint" guid="cc2f8f8a-85a3-4522-85a5-b0b26b12f4cd"/>
+            <component pluginId="ca.digitalrapids.VideoFormatUtilities" name="Video Data Type Updater" guid="D7576695-6BCB-410F-BB86-734E5F526924"/>
+            <component pluginId="ca.digitalrapids.VideoFormatConverter" name="Video Format Converter" guid="AC185E0C-6839-4dae-A547-5E18DF5EA058"/>
+            <component pluginId="ca.digitalrapids.VideoFormatUtilities" name="Video Frame Rate Updater" guid="3EA4F9F3-9DBA-4E6A-A55E-53A8D0A2BAC2"/>
+        </components>
+    </dependencyInfo>
+</kayakDocument>

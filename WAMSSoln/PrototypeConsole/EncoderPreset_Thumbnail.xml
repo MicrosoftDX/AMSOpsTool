@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<Thumbnail Size="80,60" Type="Jpeg" Filename="{OriginalFilename}_{ThumbnailTime}.{DefaultExtension}">
+  <Time Value="0:0:0"/>
+  <Time Value="0:0:3" Step="0:0:0.5" Stop="0:0:10"/>
+</Thumbnail>
+

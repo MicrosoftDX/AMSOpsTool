@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<smil xmlns="http://www.w3.org/2001/SMIL20/Language">
+  <head>
+    <!-- Tells the server that these input files are MP4s – specific to Dynamic Packaging -->
+    <meta name="formats" content="mp4" />
+  </head>
+  <body>
+    <switch>
+      <video src="Anna_400.mp4" />
+      <video src="Anna_600.mp4" />
+      <video src="Anna_896.mp4" />
+      <video src="Anna_1340.mp4" />
+      <audio src="Anna_1340.mp4" systemLanguage="eng" />
+    </switch>
+  </body>
+</smil>
+

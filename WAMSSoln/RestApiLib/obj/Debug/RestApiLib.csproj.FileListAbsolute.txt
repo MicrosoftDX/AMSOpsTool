@@ -1,0 +1,9 @@
+C:\Workspace\CSharp\WAMSSoln\RestApiLib\bin\Debug\RestApiLib.dll
+C:\Workspace\CSharp\WAMSSoln\RestApiLib\bin\Debug\RestApiLib.pdb
+C:\Workspace\CSharp\WAMSSoln\RestApiLib\obj\Debug\RestApiLib.dll
+C:\Workspace\CSharp\WAMSSoln\RestApiLib\obj\Debug\RestApiLib.pdb
+C:\Users\willzhan\Documents\GitHub\AMSOpsTool\WAMSSoln\RestApiLib\bin\Debug\RestApiLib.dll
+C:\Users\willzhan\Documents\GitHub\AMSOpsTool\WAMSSoln\RestApiLib\bin\Debug\RestApiLib.pdb
+C:\Users\willzhan\Documents\GitHub\AMSOpsTool\WAMSSoln\RestApiLib\obj\Debug\RestApiLib.csprojResolveAssemblyReference.cache
+C:\Users\willzhan\Documents\GitHub\AMSOpsTool\WAMSSoln\RestApiLib\obj\Debug\RestApiLib.dll
+C:\Users\willzhan\Documents\GitHub\AMSOpsTool\WAMSSoln\RestApiLib\obj\Debug\RestApiLib.pdb
